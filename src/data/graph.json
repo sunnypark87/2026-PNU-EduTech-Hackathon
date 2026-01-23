@@ -1,0 +1,522 @@
+{
+  "nodes": [
+    {
+      "id": "course:IE1600795",
+      "type": "course",
+      "refId": "IE1600795",
+      "label": "데이터구조및알고리즘"
+    },
+    {
+      "id": "course:IE2400210",
+      "type": "course",
+      "refId": "IE2400210",
+      "label": "공학통계(I)"
+    },
+    {
+      "id": "course:IE3400078",
+      "type": "course",
+      "refId": "IE3400078",
+      "label": "데이터베이스"
+    },
+    {
+      "id": "course:IE2400223",
+      "type": "course",
+      "refId": "IE2400223",
+      "label": "데이터마이닝"
+    },
+    {
+      "id": "course:IE2002712",
+      "type": "course",
+      "refId": "IE2002712",
+      "label": "회귀분석"
+    },
+    {
+      "id": "course:IE3600658",
+      "type": "course",
+      "refId": "IE3600658",
+      "label": "머신러닝수학"
+    },
+    {
+      "id": "course:IE2001445",
+      "type": "course",
+      "refId": "IE2001445",
+      "label": "딥러닝"
+    },
+    {
+      "id": "course:IE2002715",
+      "type": "course",
+      "refId": "IE2002715",
+      "label": "시뮬레이션최적화"
+    },
+    {
+      "id": "course:IE2002714",
+      "type": "course",
+      "refId": "IE2002714",
+      "label": "최적화모형과응용"
+    },
+    {
+      "id": "course:IE3500735",
+      "type": "course",
+      "refId": "IE3500735",
+      "label": "스마트제조"
+    },
+    {
+      "id": "course:NO1600789",
+      "type": "course",
+      "refId": "NO1600789",
+      "label": "파이썬프로그래밍"
+    },
+    {
+      "id": "course:NO1100033",
+      "type": "course",
+      "refId": "NO1100033",
+      "label": "동역학"
+    },
+    {
+      "id": "course:NO2001004",
+      "type": "course",
+      "refId": "NO2001004",
+      "label": "스마트제어공학"
+    },
+    {
+      "id": "course:NO2001245",
+      "type": "course",
+      "refId": "NO2001245",
+      "label": "조선해양캡스톤디자인(I)"
+    },
+    {
+      "id": "course:NO2100500",
+      "type": "course",
+      "refId": "NO2100500",
+      "label": "공통기초실험"
+    },
+    {
+      "id": "course:NO2500040",
+      "type": "course",
+      "refId": "NO2500040",
+      "label": "선박기본설계"
+    },
+    {
+      "id": "course:NO2500091",
+      "type": "course",
+      "refId": "NO2500091",
+      "label": "구조실험"
+    },
+    {
+      "id": "course:NO2500103",
+      "type": "course",
+      "refId": "NO2500103",
+      "label": "운동해양실험"
+    },
+    {
+      "id": "course:NO2500110",
+      "type": "course",
+      "refId": "NO2500110",
+      "label": "진동음향실험"
+    },
+    {
+      "id": "course:NO2500113",
+      "type": "course",
+      "refId": "NO2500113",
+      "label": "해양구조물설계"
+    },
+    {
+      "id": "course:ST2200456",
+      "type": "course",
+      "refId": "ST2200456",
+      "label": "통계적확률론(I)"
+    },
+    {
+      "id": "course:ST2200419",
+      "type": "course",
+      "refId": "ST2200419",
+      "label": "수리통계학(I)"
+    },
+    {
+      "id": "course:ST2200422",
+      "type": "course",
+      "refId": "ST2200422",
+      "label": "회귀분석(I)"
+    },
+    {
+      "id": "course:ST3600011",
+      "type": "course",
+      "refId": "ST3600011",
+      "label": "실험계획법"
+    },
+    {
+      "id": "course:ST3600012",
+      "type": "course",
+      "refId": "ST3600012",
+      "label": "시계열분석"
+    },
+    {
+      "id": "course:ST2700517",
+      "type": "course",
+      "refId": "ST2700517",
+      "label": "다변량통계학(I)"
+    },
+    {
+      "id": "course:ST2400969",
+      "type": "course",
+      "refId": "ST2400969",
+      "label": "데이터마이닝입문"
+    },
+    {
+      "id": "course:ST1600769",
+      "type": "course",
+      "refId": "ST1600769",
+      "label": "통계프로그래밍언어(II)"
+    },
+    {
+      "id": "course:ST2200402",
+      "type": "course",
+      "refId": "ST2200402",
+      "label": "통계수학(I)"
+    },
+    {
+      "id": "course:ST1600138",
+      "type": "course",
+      "refId": "ST1600138",
+      "label": "행렬대수"
+    },
+    {
+      "id": "course:MS2001263",
+      "type": "course",
+      "refId": "MS2001263",
+      "label": "딥러닝기반해양자료분석"
+    },
+    {
+      "id": "course:MS3400997",
+      "type": "course",
+      "refId": "MS3400997",
+      "label": "자료분석을위한파이썬"
+    },
+    {
+      "id": "course:MS3200295",
+      "type": "course",
+      "refId": "MS3200295",
+      "label": "해양조사및실습"
+    },
+    {
+      "id": "course:MS2300386",
+      "type": "course",
+      "refId": "MS2300386",
+      "label": "물리해양학(I)"
+    },
+    {
+      "id": "course:MS2300423",
+      "type": "course",
+      "refId": "MS2300423",
+      "label": "화학해양학(I)"
+    },
+    {
+      "id": "course:MS2300351",
+      "type": "course",
+      "refId": "MS2300351",
+      "label": "생물해양학(I)"
+    },
+    {
+      "id": "course:MS3400082",
+      "type": "course",
+      "refId": "MS3400082",
+      "label": "지질해양학(I)"
+    },
+    {
+      "id": "course:MS2300999",
+      "type": "course",
+      "refId": "MS2300999",
+      "label": "해양환경과오염"
+    },
+    {
+      "id": "course:MS2300996",
+      "type": "course",
+      "refId": "MS2300996",
+      "label": "부유생물학및실험"
+    },
+    {
+      "id": "course:MS3400045",
+      "type": "course",
+      "refId": "MS3400045",
+      "label": "해양식물플랑크톤생태학"
+    },
+    {
+      "id": "job:BSMD-001",
+      "type": "job",
+      "refId": "BSMD-001",
+      "label": "선박 운항·연료 최적화 데이터 분석 엔지니어"
+    },
+    {
+      "id": "job:BSMD-002",
+      "type": "job",
+      "refId": "BSMD-002",
+      "label": "조선소 스마트제조·품질 데이터 사이언티스트"
+    },
+    {
+      "id": "job:BSMD-003",
+      "type": "job",
+      "refId": "BSMD-003",
+      "label": "예지정비·이상탐지 데이터 분석 엔지니어"
+    },
+    {
+      "id": "job:BSMD-004",
+      "type": "job",
+      "refId": "BSMD-004",
+      "label": "항만 물류·배후단지 운영 최적화 분석가"
+    },
+    {
+      "id": "job:BSMD-005",
+      "type": "job",
+      "refId": "BSMD-005",
+      "label": "해양환경 모니터링 데이터 분석가"
+    },
+    {
+      "id": "job:BSMD-006",
+      "type": "job",
+      "refId": "BSMD-006",
+      "label": "원격탐사·위성 기반 해양 AI 분석 엔지니어"
+    },
+    {
+      "id": "job:BSMD-007",
+      "type": "job",
+      "refId": "BSMD-007",
+      "label": "AIS·해상교통 안전 데이터 분석가"
+    },
+    {
+      "id": "job:BSMD-008",
+      "type": "job",
+      "refId": "BSMD-008",
+      "label": "스마트선박 실증·실험 데이터 분석 엔지니어"
+    },
+    {
+      "id": "job:BSMD-009",
+      "type": "job",
+      "refId": "BSMD-009",
+      "label": "운항·조선 디지털 트윈 시뮬레이션 분석가"
+    },
+    {
+      "id": "job:BSMD-010",
+      "type": "job",
+      "refId": "BSMD-010",
+      "label": "현장 해양조사 데이터 엔지니어/분석가"
+    }
+  ],
+  "edges": [
+    {
+      "source": "course:IE1600795",
+      "target": "job:BSMD-003"
+    },
+    {
+      "source": "course:IE1600795",
+      "target": "job:BSMD-004"
+    },
+    {
+      "source": "course:IE1600795",
+      "target": "job:BSMD-009"
+    },
+    {
+      "source": "course:IE2400210",
+      "target": "job:BSMD-001"
+    },
+    {
+      "source": "course:IE2400210",
+      "target": "job:BSMD-003"
+    },
+    {
+      "source": "course:IE2400210",
+      "target": "job:BSMD-010"
+    },
+    {
+      "source": "course:IE3400078",
+      "target": "job:BSMD-001"
+    },
+    {
+      "source": "course:IE3400078",
+      "target": "job:BSMD-002"
+    },
+    {
+      "source": "course:IE3400078",
+      "target": "job:BSMD-004"
+    },
+    {
+      "source": "course:IE3400078",
+      "target": "job:BSMD-007"
+    },
+    {
+      "source": "course:IE3400078",
+      "target": "job:BSMD-009"
+    },
+    {
+      "source": "course:IE3400078",
+      "target": "job:BSMD-010"
+    },
+    {
+      "source": "course:IE2400223",
+      "target": "job:BSMD-002"
+    },
+    {
+      "source": "course:IE2400223",
+      "target": "job:BSMD-003"
+    },
+    {
+      "source": "course:IE2400223",
+      "target": "job:BSMD-004"
+    },
+    {
+      "source": "course:IE3600658",
+      "target": "job:BSMD-006"
+    },
+    {
+      "source": "course:IE3600658",
+      "target": "job:BSMD-009"
+    },
+    {
+      "source": "course:IE2001445",
+      "target": "job:BSMD-002"
+    },
+    {
+      "source": "course:IE2001445",
+      "target": "job:BSMD-003"
+    },
+    {
+      "source": "course:IE2001445",
+      "target": "job:BSMD-006"
+    },
+    {
+      "source": "course:IE2002715",
+      "target": "job:BSMD-002"
+    },
+    {
+      "source": "course:IE2002715",
+      "target": "job:BSMD-004"
+    },
+    {
+      "source": "course:IE2002715",
+      "target": "job:BSMD-009"
+    },
+    {
+      "source": "course:IE2002714",
+      "target": "job:BSMD-001"
+    },
+    {
+      "source": "course:IE2002714",
+      "target": "job:BSMD-002"
+    },
+    {
+      "source": "course:IE2002714",
+      "target": "job:BSMD-004"
+    },
+    {
+      "source": "course:IE2002714",
+      "target": "job:BSMD-009"
+    },
+    {
+      "source": "course:IE3500735",
+      "target": "job:BSMD-002"
+    },
+    {
+      "source": "course:ST2200456",
+      "target": "job:BSMD-008"
+    },
+    {
+      "source": "course:ST2200419",
+      "target": "job:BSMD-008"
+    },
+    {
+      "source": "course:ST2200422",
+      "target": "job:BSMD-001"
+    },
+    {
+      "source": "course:ST2200422",
+      "target": "job:BSMD-003"
+    },
+    {
+      "source": "course:ST2200422",
+      "target": "job:BSMD-005"
+    },
+    {
+      "source": "course:ST2200422",
+      "target": "job:BSMD-007"
+    },
+    {
+      "source": "course:ST2200422",
+      "target": "job:BSMD-008"
+    },
+    {
+      "source": "course:ST3600011",
+      "target": "job:BSMD-008"
+    },
+    {
+      "source": "course:ST3600012",
+      "target": "job:BSMD-001"
+    },
+    {
+      "source": "course:ST3600012",
+      "target": "job:BSMD-003"
+    },
+    {
+      "source": "course:ST3600012",
+      "target": "job:BSMD-007"
+    },
+    {
+      "source": "course:ST2700517",
+      "target": "job:BSMD-005"
+    },
+    {
+      "source": "course:ST2700517",
+      "target": "job:BSMD-006"
+    },
+    {
+      "source": "course:ST2700517",
+      "target": "job:BSMD-007"
+    },
+    {
+      "source": "course:ST2400969",
+      "target": "job:BSMD-001"
+    },
+    {
+      "source": "course:ST2400969",
+      "target": "job:BSMD-007"
+    },
+    {
+      "source": "course:ST1600769",
+      "target": "job:BSMD-008"
+    },
+    {
+      "source": "course:MS2001263",
+      "target": "job:BSMD-006"
+    },
+    {
+      "source": "course:MS3400997",
+      "target": "job:BSMD-005"
+    },
+    {
+      "source": "course:MS3400997",
+      "target": "job:BSMD-006"
+    },
+    {
+      "source": "course:MS3400997",
+      "target": "job:BSMD-010"
+    },
+    {
+      "source": "course:MS3200295",
+      "target": "job:BSMD-010"
+    },
+    {
+      "source": "course:MS2300386",
+      "target": "job:BSMD-005"
+    },
+    {
+      "source": "course:MS2300386",
+      "target": "job:BSMD-010"
+    },
+    {
+      "source": "course:MS2300423",
+      "target": "job:BSMD-005"
+    },
+    {
+      "source": "course:MS2300999",
+      "target": "job:BSMD-005"
+    }
+  ]
+}
