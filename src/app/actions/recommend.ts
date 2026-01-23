@@ -7,27 +7,22 @@ import path from 'path';
 
 
 import { extractCompetencies } from './analyzeJob';
-import { recommendCourses } from './recommendCourses';
+import { recommendCourses, ModuleRecommendation } from './recommendCourses';
 
-export async function getRecommendations(jobDescription: string, jobId?: number): Promise<{ keywords: string[], courses: Course[] }> {
-    // 1. Check Cache if jobId is provided
+export async function getRecommendations(jobDescription: string, jobId?: number): Promise<{ keywords: string[], modules: ModuleRecommendation[] }> {
+    // 1. Check Cache (Keywords Only) if jobId is provided
+    let cachedKeywords: string[] | null = null;
+
     if (jobId) {
         try {
-            const cachePath = path.join(process.cwd(), 'src/data/cached_analysis.json');
+            const cachePath = path.join(process.cwd(), 'src/data/job_competencies.json');
             if (fs.existsSync(cachePath)) {
                 const cacheRaw = await fs.promises.readFile(cachePath, 'utf-8');
                 const cache = JSON.parse(cacheRaw);
-                if (cache[jobId]) {
-                    console.log(`[Cache Hit] Returning cached analysis for Job ID ${jobId}`);
-                    // Ensure courses are not just IDs if cache had short form
-                    const cachedResult = cache[jobId];
-                    if (cachedResult.courses.length > 0 && typeof cachedResult.courses[0] === 'number') {
-                        const restoredCourses = cachedResult.courses.map((id: number) =>
-                            coursesData.find(c => c.id === id) || coursesData[0]
-                        );
-                        return { ...cachedResult, courses: restoredCourses as Course[] };
-                    }
-                    return cachedResult;
+                // We only care if keywords exist
+                if (cache[jobId] && cache[jobId].keywords) {
+                    console.log(`[Cache Hit] Using cached keywords for Job ID ${jobId}`);
+                    cachedKeywords = cache[jobId].keywords;
                 }
             }
         } catch (e) {
@@ -36,46 +31,50 @@ export async function getRecommendations(jobDescription: string, jobId?: number)
     }
 
     try {
-        console.log("Starting Two-Step AI Analysis...");
+        // Step 1: Extract Skills (Use Cache or AI)
+        let keywords: string[] = [];
 
-        // Step 1: Extract Competencies
-        const keywords = await extractCompetencies(jobDescription);
+        if (cachedKeywords) {
+            keywords = cachedKeywords;
+        } else {
+            console.log("Analyzing Job with AI...");
+            keywords = await extractCompetencies(jobDescription);
 
-        // Step 2: Recommend Courses
-        const courses = await recommendCourses(keywords);
+            // Save to Cache if jobId exists
+            if (jobId) {
+                try {
+                    const cachePath = path.join(process.cwd(), 'src/data/job_competencies.json');
+                    let cache: any = {};
+                    if (fs.existsSync(cachePath)) {
+                        const cacheRaw = await fs.promises.readFile(cachePath, 'utf-8');
+                        try { cache = JSON.parse(cacheRaw); } catch { }
+                    }
 
-        const finalResult = {
-            keywords,
-            courses
-        };
+                    // Only save keywords
+                    cache[jobId] = { keywords };
 
-        // 2. Write to Cache if jobId is provided
-        if (jobId) {
-            try {
-                const cachePath = path.join(process.cwd(), 'src/data/cached_analysis.json');
-                let cache: any = {};
-                if (fs.existsSync(cachePath)) {
-                    const cacheRaw = await fs.promises.readFile(cachePath, 'utf-8');
-                    try { cache = JSON.parse(cacheRaw); } catch { }
+                    await fs.promises.writeFile(cachePath, JSON.stringify(cache, null, 2), 'utf-8');
+                    console.log(`[Cache Saved] Saved keywords for Job ID ${jobId}`);
+                } catch (e) {
+                    console.error("Cache Write Error:", e);
                 }
-
-                cache[jobId] = finalResult;
-
-                await fs.promises.writeFile(cachePath, JSON.stringify(cache, null, 2), 'utf-8');
-                console.log(`[Cache Saved] Saved analysis for Job ID ${jobId}`);
-            } catch (e) {
-                console.error("Cache Write Error:", e);
             }
         }
 
-        return finalResult;
+        // Step 2: Recommend Modules
+        const modules = await recommendCourses(keywords);
+
+        return {
+            keywords,
+            modules
+        };
 
     } catch (error) {
-        console.error("AI Recommendation Error:", error);
+        console.error("Recommendation Error:", error);
         // Fallback
         return {
             keywords: ["데이터 분석", "프로젝트 관리", "커뮤니케이션", "문제 해결", "창의성"],
-            courses: coursesData.slice(0, 3)
+            modules: []
         };
     }
 }

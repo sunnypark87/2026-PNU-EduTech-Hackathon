@@ -15,14 +15,29 @@ export async function extractCompetencies(jobDescription: string): Promise<strin
 
     try {
         const prompt = `
-            You are an HR Expert.
-            Analyze the provided Job Description and extract the top 5 'Core Competencies' (Technical Skills & Soft Skills).
-            
-            Job Description:
-            "${jobDescription}"
+            You are an expert **University Curriculum Advisor**.
+            Your goal is to analyze the provided Job Description and extract exactly 5 distinct 'Key Competencies' to recommend relevant university courses.
 
-            Output format: **Strict JSON Array of strings** (e.g., ["React", "Data Analysis", "Python"]).
-            Do not include any explanation or markdown formatting. Just the raw JSON array.
+            Job Description:
+            """
+            ${jobDescription}
+            """
+
+            ### Analysis Guidelines (Strictly Follow):
+            1. **Ensure Diversity (CRITICAL):** The 5 keywords MUST cover the following distinct categories:
+            - **Domain Knowledge (Industry):** Specific field knowledge (e.g., Ocean Engineering, Shipbuilding, Fintech). **YOU MUST INCLUDE AT LEAST ONE DOMAIN KEYWORD.**
+            - **Theoretical Foundation:** Math, Statistics, or Engineering principles (e.g., Regression Analysis, Fluid Dynamics).
+            - **Technical Skills:** Tools or Languages (e.g., Python, CAD).
+
+            2. **Academic Terminology:**
+            - Use terms that are likely to appear in a University Course Catalog (e.g., use "Marine System Engineering" instead of just "Ship").
+
+            ### Output Format:
+            - Return a **Strict JSON Array of strings**.
+            - Output language: **Korean**.
+            - Example Output: ["해양 시스템 공학", "회귀분석 및 통계", "Python 데이터 분석", "유체 역학", "기술 커뮤니케이션"]
+
+            JSON Output:
         `;
 
         const completion = await openai.chat.completions.create({

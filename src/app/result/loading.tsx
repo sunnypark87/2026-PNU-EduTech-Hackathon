@@ -6,7 +6,7 @@ export default function Loading() {
     // Actually, let's just duplicate the skeleton structure for simplicity and speed.
     return (
         <div className="flex flex-col min-h-screen bg-slate-50">
-            <header className="px-8 py-5 bg-[#003d7c] text-white flex justify-between items-center">
+            <header className="px-8 py-5 bg-[#0e4ecf] text-white flex justify-between items-center">
                 <div className="text-2xl font-bold tracking-wide">Degree-folio</div>
                 <div className="text-sm opacity-80">Beta v1.0</div>
             </header>

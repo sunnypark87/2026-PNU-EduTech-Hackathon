@@ -34,7 +34,7 @@ export default function AnalyzeButton({ jobContent, jobId }: { jobContent: strin
         px-8 py-4 rounded-xl font-bold text-white text-lg shadow-lg transition-all
         ${loading
                     ? 'bg-gray-400 cursor-not-allowed'
-                    : 'bg-[#003d7c] hover:bg-[#002b57] active:scale-[0.98] animate-pulse-subtle'
+                    : 'bg-[#0e4ecf] hover:bg-[#0b3d91] active:scale-[0.98] animate-pulse-subtle'
                 }
       `}
         >

@@ -24,7 +24,7 @@ async function ResultContent({ searchParams }: { searchParams: Promise<{ job?: s
     }
 
     // Call Server Action
-    const { keywords, courses } = await getRecommendations(jobDescription, resolvedParams?.jobId ? Number(resolvedParams.jobId) : undefined);
+    const { keywords, modules } = await getRecommendations(jobDescription, resolvedParams?.jobId ? Number(resolvedParams.jobId) : undefined);
 
     return (
         <div>
@@ -32,7 +32,7 @@ async function ResultContent({ searchParams }: { searchParams: Promise<{ job?: s
             <div className="mb-10 p-6 bg-white rounded-xl shadow-sm border border-blue-100">
                 <h3 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
                     <span className="text-2xl">🔍</span>
-                    AI 채용공고 분석 결과: <span className="text-[#003d7c]">핵심 역량 (Core Competencies)</span>
+                    AI 채용공고 분석 결과: <span className="text-[#0e4ecf]">핵심 역량 (Core Competencies)</span>
                 </h3>
                 <div className="flex flex-wrap gap-2">
                     {keywords.map((keyword, idx) => (
@@ -43,33 +43,73 @@ async function ResultContent({ searchParams }: { searchParams: Promise<{ job?: s
                 </div>
             </div>
 
-            {/* Courses Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-                {courses.map((course, index) => (
-                    <div key={course.id} className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow">
-                        <div className="p-1 bg-gradient-to-r from-blue-600 to-indigo-600 h-2" />
-                        <div className="p-6">
-                            <div className="flex gap-2 mb-3">
-                                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full font-bold">
-                                    Match {98 - index * 2}%
-                                </span>
-                                <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full font-bold">
-                                    채용 연계
-                                </span>
+            {/* Modules Grid */}
+            <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+                <span>📚</span> 추천 교육 모듈 (Pentomino Modules)
+            </h3>
+            <div className="grid grid-cols-1 gap-8 mb-12">
+                {modules.map((module, index) => (
+                    <div key={module.id} className="bg-white rounded-2xl shadow-md border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow relative">
+                        {/* Top Decoration */}
+                        <div className="h-3 w-full bg-gradient-to-r from-[#0e4ecf] to-cyan-500"></div>
+
+                        <div className="p-8">
+                            <div className="flex justify-between items-start mb-4">
+                                <div>
+                                    <span className="inline-block bg-[#eff6ff] text-[#0e4ecf] text-sm px-3 py-1 rounded-full font-bold mb-2 border border-blue-100">
+                                        {module.category}
+                                    </span>
+                                    <h2 className="text-2xl font-bold text-gray-900">{module.title}</h2>
+                                </div>
+                                <div className="bg-gray-100 text-gray-600 font-bold px-4 py-2 rounded-lg text-sm">
+                                    {module.matchedCourses.length} 과목 포함
+                                </div>
                             </div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-2 line-clamp-2">{course.title}</h3>
-                            <p className="text-sm text-gray-500 mb-4">{course.professor} 교수</p>
-                            <p className="text-gray-600 text-sm line-clamp-3 mb-4">
-                                {course.description}
+
+                            <p className="text-gray-600 mb-8 leading-relaxed">
+                                {module.description}
                             </p>
-                            <div className="flex flex-wrap gap-1">
-                                {course.keywords.map(kw => (
-                                    <span key={kw} className="text-xs bg-gray-100 text-gray-500 px-2 py-1 rounded">#{kw}</span>
-                                ))}
+
+                            {/* Included Courses Preview */}
+                            <div className="bg-gray-50 rounded-xl p-5 border border-gray-100">
+                                <h4 className="text-sm font-bold text-gray-500 mb-3 uppercase tracking-wider">포함된 주요 강의</h4>
+                                <ul className="space-y-3">
+                                    {module.matchedCourses.slice(0, 3).map(course => (
+                                        <li key={course.id} className="flex items-center gap-3 bg-white p-3 rounded-lg border border-gray-200 shadow-sm">
+                                            <span className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold text-xs">
+                                                {course.id}
+                                            </span>
+                                            <div>
+                                                <div className="font-bold text-gray-800 text-sm">{course.title}</div>
+                                                <div className="text-xs text-gray-500">{course.professor} 교수</div>
+                                            </div>
+                                        </li>
+                                    ))}
+                                    {module.matchedCourses.length > 3 && (
+                                        <li className="text-center text-sm text-gray-400 pt-2">
+                                            외 {module.matchedCourses.length - 3}개 강의 더보기...
+                                        </li>
+                                    )}
+                                </ul>
+                            </div>
+
+                            <div className="mt-8 text-right">
+                                <Link
+                                    href={`/modules/${module.id}`}
+                                    className="inline-flex items-center gap-2 text-[#0e4ecf] font-bold hover:underline"
+                                >
+                                    모듈 상세 커리큘럼 보기 →
+                                </Link>
                             </div>
                         </div>
                     </div>
                 ))}
+
+                {modules.length === 0 && (
+                    <div className="text-center py-12 text-gray-500">
+                        추천 모듈을 찾을 수 없습니다.
+                    </div>
+                )}
             </div>
         </div>
     );
@@ -78,18 +118,19 @@ async function ResultContent({ searchParams }: { searchParams: Promise<{ job?: s
 // Fallback skeleton for loading
 function ResultsSkeleton() {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {[1, 2, 3].map((i) => (
-                <div key={i} className="bg-white rounded-xl shadow-md border border-gray-100 overflow-hidden h-[300px] animate-pulse">
-                    <div className="p-1 bg-gray-200 h-2" />
-                    <div className="p-6">
-                        <div className="mb-3 flex gap-2">
-                            <div className="h-5 w-16 bg-gray-200 rounded-full" />
-                            <div className="h-5 w-16 bg-gray-200 rounded-full" />
+        <div className="grid grid-cols-1 gap-8 mb-12">
+            {[1, 2].map((i) => (
+                <div key={i} className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden h-[400px] animate-pulse">
+                    <div className="p-1 bg-gray-200 h-3" />
+                    <div className="p-8">
+                        <div className="mb-6 flex justify-between">
+                            <div className="h-8 w-1/3 bg-gray-200 rounded" />
+                            <div className="h-8 w-20 bg-gray-200 rounded" />
                         </div>
-                        <div className="h-6 bg-gray-200 w-3/4 mb-2 rounded" />
-                        <div className="h-6 bg-gray-200 w-1/2 mb-4 rounded" />
-                        <div className="h-20 bg-gray-200 rounded mb-4" />
+                        <div className="h-4 bg-gray-200 w-3/4 mb-2 rounded" />
+                        <div className="h-4 bg-gray-200 w-1/2 mb-8 rounded" />
+
+                        <div className="h-40 bg-gray-200 rounded-xl" />
                     </div>
                 </div>
             ))}
@@ -103,7 +144,7 @@ export default async function ResultPage(props: { searchParams: Promise<{ job?: 
     return (
         <div className="flex flex-col min-h-screen bg-slate-50">
             {/* Header */}
-            <header className="px-8 py-5 bg-[#003d7c] text-white flex justify-between items-center">
+            <header className="px-8 py-5 bg-[#0e4ecf] text-white flex justify-between items-center">
                 <Link href="/" className="text-2xl font-bold tracking-wide">Degree-folio</Link>
                 <div className="text-sm opacity-80">Beta v1.0</div>
             </header>
@@ -112,7 +153,7 @@ export default async function ResultPage(props: { searchParams: Promise<{ job?: 
                 <div className="my-8">
                     <h1 className="text-3xl font-bold text-gray-900 mb-2">Degree-folio 분석 리포트</h1>
                     <p className="text-lg text-gray-600">
-                        지원자님의 채용공고 분석 결과, 아래 <span className="font-bold text-[#003d7c]">부산 지역 강의</span>가 가장 적합합니다.
+                        지원자님의 채용공고 분석 결과, 귀하에게 딱 맞는 <span className="font-bold text-[#0e4ecf]">맞춤형 모듈(Pentomino Module)</span>을 제안합니다.
                     </p>
                 </div>
 
@@ -120,8 +161,8 @@ export default async function ResultPage(props: { searchParams: Promise<{ job?: 
                     <ResultContent searchParams={props.searchParams} />
                 </Suspense>
 
-                <div className="text-center">
-                    <Link href="/portfolio" className="inline-block bg-[#003d7c] hover:bg-[#002b57] text-white text-lg font-bold px-10 py-4 rounded-xl transition-all shadow-lg active:scale-[0.99] animate-bounce-custom">
+                <div className="text-center pb-12">
+                    <Link href="/portfolio" className="inline-block bg-[#0e4ecf] hover:bg-[#0b3d91] text-white text-lg font-bold px-10 py-4 rounded-xl transition-all shadow-lg active:scale-[0.99] animate-bounce-custom">
                         나만의 디그리폴리오 발급받기
                     </Link>
                 </div>

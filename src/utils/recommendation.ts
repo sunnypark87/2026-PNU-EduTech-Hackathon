@@ -2,6 +2,7 @@ import coursesData from '@/data/courses.json';
 
 export interface Course {
     id: number;
+    moduleId?: string;
     title: string;
     professor: string;
     keywords: string[];

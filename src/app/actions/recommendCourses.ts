@@ -2,64 +2,142 @@
 
 import OpenAI from 'openai';
 import coursesData from '@/data/courses.json';
+import modulesData from '@/data/modules.json';
 import { Course } from '@/utils/recommendation';
 
-const openai = new OpenAI({
+const openai = process.env.OPENAI_API_KEY ? new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
-});
+}) : null;
 
-export async function recommendCourses(competencies: string[]): Promise<Course[]> {
-    // Check if we need to return full course objects or if partial is fine.
-    // The existing UI expects Course Objects.
+import fs from 'fs';
+import path from 'path';
+import { getEmbedding, cosineSimilarity } from '@/utils/vector';
 
-    if (!process.env.OPENAI_API_KEY || process.env.OPENAI_API_KEY.startsWith('sk-placeholder')) {
-        console.warn("OpenAI API Key is missing. Returning mock courses.");
-        await new Promise(resolve => setTimeout(resolve, 800));
-        return coursesData.slice(0, 3);
+// In-memory cache for course embeddings (optimization for server runtime)
+let cachedCourseEmbeddings: { [id: number]: number[] } | null = null;
+
+async function getCourseEmbeddings(): Promise<{ [id: number]: number[] }> {
+    if (cachedCourseEmbeddings) return cachedCourseEmbeddings;
+
+    const cachePath = path.join(process.cwd(), 'src/data/course_embeddings.json');
+
+    // 1. Try file cache
+    if (fs.existsSync(cachePath)) {
+        try {
+            const raw = await fs.promises.readFile(cachePath, 'utf-8');
+            cachedCourseEmbeddings = JSON.parse(raw);
+            return cachedCourseEmbeddings!;
+        } catch (e) {
+            console.error("Error reading course embeddings cache:", e);
+        }
     }
 
+    // 2. Generate embeddings
+    console.log("Generating Course Embeddings...");
+    const embeddings: { [id: number]: number[] } = {};
+
+    // Process in batches if using real API to avoid rate limits, but for mock/small data, serial is fine
+    for (const course of coursesData) {
+        // Embed a rich text representation of the course
+        const textToEmbed = `${course.title} ${course.keywords.join(' ')} ${course.description}`;
+        embeddings[course.id] = await getEmbedding(textToEmbed);
+    }
+
+    // 3. Save to file cache
     try {
-        const prompt = `
-            Here is a list of required competencies: ${JSON.stringify(competencies)}
+        await fs.promises.writeFile(cachePath, JSON.stringify(embeddings), 'utf-8');
+    } catch (e) {
+        console.error("Error saving course embeddings cache:", e);
+    }
 
-            Here is the list of university courses in JSON format:
-            ${JSON.stringify(coursesData.map(c => ({ id: c.id, title: c.title, description: c.description, keywords: c.keywords })))}
+    cachedCourseEmbeddings = embeddings;
+    return embeddings;
+}
 
-            Task:
-            Find the 3 most suitable courses from the provided Course List that match these skills.
-            
-            Return the output **strictly** in JSON format as an array of objects.
-            Each object should contain the "id" of the course and a "reason" string explaining why it matches.
-            Example: [{ "id": 1, "reason": "Matches Python skill" }]
-            
-            Do not include any markdown formatting. Just the raw JSON array.
-        `;
+export interface ModuleRecommendation {
+    id: string;
+    title: string;
+    description: string;
+    category: string;
+    matchedCourses: Course[];
+}
 
-        const completion = await openai.chat.completions.create({
-            model: "gpt-4o-mini",
-            messages: [
-                { role: "system", content: "You are an expert educational consultant. Output strictly valid JSON." },
-                { role: "user", content: prompt },
-            ],
-            temperature: 0.3,
+export async function recommendCourses(competencies: string[]): Promise<ModuleRecommendation[]> {
+    try {
+        console.log("Starting Vector Search (Module Aggregation)...");
+
+        // 1. Get Query Embedding
+        const queryText = competencies.join(' ');
+        const queryVector = await getEmbedding(queryText);
+
+        // 2. Get Course Embeddings
+        const courseEmbeddings = await getCourseEmbeddings();
+
+        // 3. Compute Cosine Similarity
+        const scoredCourses = coursesData.map(course => {
+            const vec = courseEmbeddings[course.id];
+            if (!vec) return { ...course, score: 0 };
+            const score = cosineSimilarity(queryVector, vec);
+            return { ...course, score };
         });
 
-        const content = completion.choices[0].message.content;
-        if (!content) throw new Error("No content received");
+        // 4. Sort and Take Top K (e.g., top 10 relevant courses)
+        scoredCourses.sort((a, b) => b.score - a.score);
+        const topCandidates = scoredCourses.slice(0, 10);
 
-        const cleanedContent = content.replace(/```json/g, '').replace(/```/g, '').trim();
-        const results = JSON.parse(cleanedContent);
+        // 5. Aggregate by Module
+        const moduleMap = new Map<string, { module: any; courses: Course[] }>();
 
-        // Map back to full course objects
-        const recommendedCourses = results.map((res: any) => {
-            const original = coursesData.find(c => c.id === res.id);
-            return original || coursesData[0]; // Fallback
-        });
+        for (const candidate of topCandidates) {
+            // Check if course has a moduleId
+            // @ts-ignore
+            const moduleId = candidate.moduleId;
+            if (!moduleId) continue;
 
-        return recommendedCourses.slice(0, 3) as Course[];
+            if (!moduleMap.has(moduleId)) {
+                const moduleInfo = modulesData.find(m => m.id === moduleId);
+                if (moduleInfo) {
+                    moduleMap.set(moduleId, {
+                        module: moduleInfo,
+                        courses: []
+                    });
+                }
+            }
+
+            const entry = moduleMap.get(moduleId);
+            if (entry) {
+                entry.courses.push({
+                    id: candidate.id,
+                    moduleId: moduleId,
+                    title: candidate.title,
+                    professor: candidate.professor,
+                    keywords: candidate.keywords,
+                    description: candidate.description,
+                    target_audience: candidate.target_audience
+                });
+            }
+        }
+
+        // 6. Format Result
+        const results: ModuleRecommendation[] = Array.from(moduleMap.values()).map(entry => ({
+            id: entry.module.id,
+            title: entry.module.title,
+            description: entry.module.description,
+            category: entry.module.category,
+            matchedCourses: entry.courses
+        }));
+
+        // Sort modules by matched course count
+        results.sort((a, b) => b.matchedCourses.length - a.matchedCourses.length);
+
+        const topModules = results.slice(0, 3); // Return top 3 modules
+
+        console.log("Top Modules:", topModules.map(m => `${m.title} (${m.matchedCourses.length} courses)`));
+
+        return topModules;
 
     } catch (error) {
-        console.error("Course Recommendation Error:", error);
-        return coursesData.slice(0, 3);
+        console.error("Module Recommendation Error:", error);
+        return [];
     }
 }

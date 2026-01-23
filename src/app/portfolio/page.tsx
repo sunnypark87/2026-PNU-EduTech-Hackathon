@@ -4,7 +4,7 @@ export default function PortfolioPage() {
     return (
         <div className="flex flex-col min-h-screen bg-[#f0f4f8]">
             {/* Header */}
-            <header className="px-8 py-5 bg-[#003d7c] text-white">
+            <header className="px-8 py-5 bg-[#0e4ecf] text-white">
                 <Link href="/" className="text-2xl font-bold tracking-wide">Degree-folio</Link>
             </header>
 
@@ -13,11 +13,11 @@ export default function PortfolioPage() {
                     {/* Certificate Inner Border */}
                     <div className="border border-gray-300 p-8 h-full flex flex-col items-center text-center">
 
-                        <div className="w-20 h-20 bg-[#003d7c] rounded-full flex items-center justify-center text-white font-serif text-3xl font-bold mb-8 shadow-md">
+                        <div className="w-20 h-20 bg-[#0e4ecf] rounded-full flex items-center justify-center text-white font-serif text-3xl font-bold mb-8 shadow-md">
                             D
                         </div>
 
-                        <h1 className="text-4xl md:text-5xl font-serif font-bold text-[#003d7c] mb-2">OFFICIAL</h1>
+                        <h1 className="text-4xl md:text-5xl font-serif font-bold text-[#0e4ecf] mb-2">OFFICIAL</h1>
                         <h2 className="text-3xl md:text-4xl font-serif font-bold text-black mb-8 tracking-widest">DEGREE-FOLIO</h2>
 
                         <div className="w-24 h-1 bg-[#C5A059] mb-8"></div>
@@ -30,11 +30,11 @@ export default function PortfolioPage() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-lg text-left mt-4 mb-10 bg-gray-50 p-6 rounded-lg border border-gray-100">
                             <div>
                                 <h4 className="font-bold text-gray-500 text-sm mb-1">취득 역량</h4>
-                                <p className="text-[#003d7c] font-bold">핀테크, 블록체인, 금융 데이터</p>
+                                <p className="text-[#0e4ecf] font-bold">핀테크, 블록체인, 금융 데이터</p>
                             </div>
                             <div>
                                 <h4 className="font-bold text-gray-500 text-sm mb-1">추천 기업</h4>
-                                <p className="text-[#003d7c] font-bold">BNK 부산은행, KRX 한국거래소</p>
+                                <p className="text-[#0e4ecf] font-bold">BNK 부산은행, KRX 한국거래소</p>
                             </div>
                             <div className="md:col-span-2">
                                 <h4 className="font-bold text-gray-500 text-sm mb-1">이수 강의</h4>
@@ -53,7 +53,7 @@ export default function PortfolioPage() {
                                 <div className="relative inline-block">
                                     <span className="font-serif text-xl font-bold relative z-10">Degree-folio Director</span>
                                     <div className="absolute -top-4 -right-6 w-24 h-24 opacity-20 rotate-[-15deg]">
-                                        <svg viewBox="0 0 100 100" className="fill-[#003d7c]">
+                                        <svg viewBox="0 0 100 100" className="fill-[#0e4ecf]">
                                             <circle cx="50" cy="50" r="40" />
                                         </svg>
                                     </div>
