@@ -1,0 +1,627 @@
+{
+  "min_score": 0.72,
+  "top_k": 5,
+  "force_top_k": true,
+  "jobs": {
+    "BSMD-001": [
+      {
+        "course_key": "해양학과::MS3400997::자료분석을위한파이썬",
+        "course_code": "MS3400997",
+        "course_name": "자료분석을위한파이썬",
+        "score": 0.49719159603118895
+      },
+      {
+        "course_key": "조선해양공학과::NO2001245::조선해양캡스톤디자인(I)",
+        "course_code": "NO2001245",
+        "course_name": "조선해양캡스톤디자인(I)",
+        "score": 0.484396630525589
+      },
+      {
+        "course_key": "산업공학과::IE2002715::시뮬레이션최적화",
+        "course_code": "IE2002715",
+        "course_name": "시뮬레이션최적화",
+        "score": 0.474133038520813
+      },
+      {
+        "course_key": "산업공학과::IE2002712::회귀분석",
+        "course_code": "IE2002712",
+        "course_name": "회귀분석",
+        "score": 0.47118178606033323
+      },
+      {
+        "course_key": "산업공학과::IE2400223::데이터마이닝",
+        "course_code": "IE2400223",
+        "course_name": "데이터마이닝",
+        "score": 0.458346962928772
+      },
+      {
+        "course_key": "해양학과::MS2300351::생물해양학(I)",
+        "course_code": "MS2300351",
+        "course_name": "생물해양학(I)",
+        "score": 0.450381875038147
+      },
+      {
+        "course_key": "조선해양공학과::NO1600789::파이썬프로그래밍",
+        "course_code": "NO1600789",
+        "course_name": "파이썬프로그래밍",
+        "score": 0.44171119332313535
+      },
+      {
+        "course_key": "산업공학과::IE3400078::데이터베이스",
+        "course_code": "IE3400078",
+        "course_name": "데이터베이스",
+        "score": 0.4411709368228912
+      },
+      {
+        "course_key": "산업공학과::IE2002714::최적화모형과응용",
+        "course_code": "IE2002714",
+        "course_name": "최적화모형과응용",
+        "score": 0.435660845041275
+      },
+      {
+        "course_key": "산업공학과::IE3500735::스마트제조",
+        "course_code": "IE3500735",
+        "course_name": "스마트제조",
+        "score": 0.43177816867828367
+      }
+    ],
+    "BSMD-002": [
+      {
+        "course_key": "산업공학과::IE2002712::회귀분석",
+        "course_code": "IE2002712",
+        "course_name": "회귀분석",
+        "score": 0.4660759687423706
+      },
+      {
+        "course_key": "산업공학과::IE3400078::데이터베이스",
+        "course_code": "IE3400078",
+        "course_name": "데이터베이스",
+        "score": 0.45173217058181764
+      },
+      {
+        "course_key": "산업공학과::IE3500735::스마트제조",
+        "course_code": "IE3500735",
+        "course_name": "스마트제조",
+        "score": 0.4352519929409027
+      },
+      {
+        "course_key": "산업공학과::IE2002715::시뮬레이션최적화",
+        "course_code": "IE2002715",
+        "course_name": "시뮬레이션최적화",
+        "score": 0.43510042428970336
+      },
+      {
+        "course_key": "산업공학과::IE2400223::데이터마이닝",
+        "course_code": "IE2400223",
+        "course_name": "데이터마이닝",
+        "score": 0.42944117784500124
+      },
+      {
+        "course_key": "산업공학과::IE2001445::딥러닝",
+        "course_code": "IE2001445",
+        "course_name": "딥러닝",
+        "score": 0.42269658148288725
+      },
+      {
+        "course_key": "통계학과::ST1600769::통계프로그래밍언어(II)",
+        "course_code": "ST1600769",
+        "course_name": "통계프로그래밍언어(II)",
+        "score": 0.4087134838104248
+      },
+      {
+        "course_key": "산업공학과::IE2002714::최적화모형과응용",
+        "course_code": "IE2002714",
+        "course_name": "최적화모형과응용",
+        "score": 0.4077995538711548
+      },
+      {
+        "course_key": "조선해양공학과::NO1600789::파이썬프로그래밍",
+        "course_code": "NO1600789",
+        "course_name": "파이썬프로그래밍",
+        "score": 0.39996426105499266
+      },
+      {
+        "course_key": "해양학과::MS3400045::해양식물플랑크톤생태학",
+        "course_code": "MS3400045",
+        "course_name": "해양식물플랑크톤생태학",
+        "score": 0.3891498327255249
+      }
+    ],
+    "BSMD-003": [
+      {
+        "course_key": "산업공학과::IE2400223::데이터마이닝",
+        "course_code": "IE2400223",
+        "course_name": "데이터마이닝",
+        "score": 0.4739297396606869
+      },
+      {
+        "course_key": "통계학과::ST2400969::데이터마이닝입문",
+        "course_code": "ST2400969",
+        "course_name": "데이터마이닝입문",
+        "score": 0.4430372152063582
+      },
+      {
+        "course_key": "조선해양공학과::NO2500110::진동음향실험",
+        "course_code": "NO2500110",
+        "course_name": "진동음향실험",
+        "score": 0.426842514011595
+      },
+      {
+        "course_key": "조선해양공학과::NO2500091::구조실험",
+        "course_code": "NO2500091",
+        "course_name": "구조실험",
+        "score": 0.41832168565856087
+      },
+      {
+        "course_key": "산업공학과::IE2002712::회귀분석",
+        "course_code": "IE2002712",
+        "course_name": "회귀분석",
+        "score": 0.41454197963078815
+      },
+      {
+        "course_key": "산업공학과::IE2002714::최적화모형과응용",
+        "course_code": "IE2002714",
+        "course_name": "최적화모형과응용",
+        "score": 0.4103589786423577
+      },
+      {
+        "course_key": "산업공학과::IE1600795::데이터구조및알고리즘",
+        "course_code": "IE1600795",
+        "course_name": "데이터구조및알고리즘",
+        "score": 0.4030238522423638
+      },
+      {
+        "course_key": "산업공학과::IE2400210::공학통계(I)",
+        "course_code": "IE2400210",
+        "course_name": "공학통계(I)",
+        "score": 0.4024924801455604
+      },
+      {
+        "course_key": "통계학과::ST3600012::시계열분석",
+        "course_code": "ST3600012",
+        "course_name": "시계열분석",
+        "score": 0.40121864279111225
+      },
+      {
+        "course_key": "산업공학과::IE2001445::딥러닝",
+        "course_code": "IE2001445",
+        "course_name": "딥러닝",
+        "score": 0.4009110944138633
+      }
+    ],
+    "BSMD-004": [
+      {
+        "course_key": "산업공학과::IE2002715::시뮬레이션최적화",
+        "course_code": "IE2002715",
+        "course_name": "시뮬레이션최적화",
+        "score": 0.4891407430171967
+      },
+      {
+        "course_key": "산업공학과::IE2002714::최적화모형과응용",
+        "course_code": "IE2002714",
+        "course_name": "최적화모형과응용",
+        "score": 0.46180415749549864
+      },
+      {
+        "course_key": "조선해양공학과::NO2001245::조선해양캡스톤디자인(I)",
+        "course_code": "NO2001245",
+        "course_name": "조선해양캡스톤디자인(I)",
+        "score": 0.4457348644733429
+      },
+      {
+        "course_key": "산업공학과::IE3500735::스마트제조",
+        "course_code": "IE3500735",
+        "course_name": "스마트제조",
+        "score": 0.4310952007770538
+      },
+      {
+        "course_key": "산업공학과::IE2400223::데이터마이닝",
+        "course_code": "IE2400223",
+        "course_name": "데이터마이닝",
+        "score": 0.4296615242958069
+      },
+      {
+        "course_key": "산업공학과::IE2002712::회귀분석",
+        "course_code": "IE2002712",
+        "course_name": "회귀분석",
+        "score": 0.4286224484443665
+      },
+      {
+        "course_key": "산업공학과::IE3400078::데이터베이스",
+        "course_code": "IE3400078",
+        "course_name": "데이터베이스",
+        "score": 0.40738524198532106
+      },
+      {
+        "course_key": "산업공학과::IE3600658::머신러닝수학",
+        "course_code": "IE3600658",
+        "course_name": "머신러닝수학",
+        "score": 0.3941789329051971
+      },
+      {
+        "course_key": "조선해양공학과::NO2500040::선박기본설계",
+        "course_code": "NO2500040",
+        "course_name": "선박기본설계",
+        "score": 0.3769023776054382
+      },
+      {
+        "course_key": "산업공학과::IE2400210::공학통계(I)",
+        "course_code": "IE2400210",
+        "course_name": "공학통계(I)",
+        "score": 0.3724206924438477
+      }
+    ],
+    "BSMD-005": [
+      {
+        "course_key": "해양학과::MS3400997::자료분석을위한파이썬",
+        "course_code": "MS3400997",
+        "course_name": "자료분석을위한파이썬",
+        "score": 0.5201510429382324
+      },
+      {
+        "course_key": "산업공학과::IE3400078::데이터베이스",
+        "course_code": "IE3400078",
+        "course_name": "데이터베이스",
+        "score": 0.4631437987089157
+      },
+      {
+        "course_key": "조선해양공학과::NO2500103::운동해양실험",
+        "course_code": "NO2500103",
+        "course_name": "운동해양실험",
+        "score": 0.46241171956062316
+      },
+      {
+        "course_key": "해양학과::MS2300351::생물해양학(I)",
+        "course_code": "MS2300351",
+        "course_name": "생물해양학(I)",
+        "score": 0.46170653998851774
+      },
+      {
+        "course_key": "조선해양공학과::NO2001245::조선해양캡스톤디자인(I)",
+        "course_code": "NO2001245",
+        "course_name": "조선해양캡스톤디자인(I)",
+        "score": 0.46005441844463346
+      },
+      {
+        "course_key": "해양학과::MS2001263::딥러닝기반해양자료분석",
+        "course_code": "MS2001263",
+        "course_name": "딥러닝기반해양자료분석",
+        "score": 0.45304597318172457
+      },
+      {
+        "course_key": "조선해양공학과::NO2100500::공통기초실험",
+        "course_code": "NO2100500",
+        "course_name": "공통기초실험",
+        "score": 0.4495537966489792
+      },
+      {
+        "course_key": "산업공학과::IE2400210::공학통계(I)",
+        "course_code": "IE2400210",
+        "course_name": "공학통계(I)",
+        "score": 0.4493921220302582
+      },
+      {
+        "course_key": "조선해양공학과::NO1600789::파이썬프로그래밍",
+        "course_code": "NO1600789",
+        "course_name": "파이썬프로그래밍",
+        "score": 0.44648415595293045
+      },
+      {
+        "course_key": "통계학과::ST3600011::실험계획법",
+        "course_code": "ST3600011",
+        "course_name": "실험계획법",
+        "score": 0.44402589946985244
+      }
+    ],
+    "BSMD-006": [
+      {
+        "course_key": "산업공학과::IE2002714::최적화모형과응용",
+        "course_code": "IE2002714",
+        "course_name": "최적화모형과응용",
+        "score": 0.4724205897914039
+      },
+      {
+        "course_key": "통계학과::ST2400969::데이터마이닝입문",
+        "course_code": "ST2400969",
+        "course_name": "데이터마이닝입문",
+        "score": 0.4708454344007704
+      },
+      {
+        "course_key": "산업공학과::IE2002712::회귀분석",
+        "course_code": "IE2002712",
+        "course_name": "회귀분석",
+        "score": 0.46223289436764187
+      },
+      {
+        "course_key": "산업공학과::IE3600658::머신러닝수학",
+        "course_code": "IE3600658",
+        "course_name": "머신러닝수학",
+        "score": 0.45266134209103054
+      },
+      {
+        "course_key": "조선해양공학과::NO1600789::파이썬프로그래밍",
+        "course_code": "NO1600789",
+        "course_name": "파이썬프로그래밍",
+        "score": 0.44443388117684257
+      },
+      {
+        "course_key": "조선해양공학과::NO2500103::운동해양실험",
+        "course_code": "NO2500103",
+        "course_name": "운동해양실험",
+        "score": 0.4323859281010098
+      },
+      {
+        "course_key": "산업공학과::IE2400210::공학통계(I)",
+        "course_code": "IE2400210",
+        "course_name": "공학통계(I)",
+        "score": 0.4270198477639092
+      },
+      {
+        "course_key": "통계학과::ST3600012::시계열분석",
+        "course_code": "ST3600012",
+        "course_name": "시계열분석",
+        "score": 0.41531533665127224
+      },
+      {
+        "course_key": "산업공학과::IE2001445::딥러닝",
+        "course_code": "IE2001445",
+        "course_name": "딥러닝",
+        "score": 0.41512837674882674
+      },
+      {
+        "course_key": "산업공학과::IE2002715::시뮬레이션최적화",
+        "course_code": "IE2002715",
+        "course_name": "시뮬레이션최적화",
+        "score": 0.4059656328625149
+      }
+    ],
+    "BSMD-007": [
+      {
+        "course_key": "산업공학과::IE2002715::시뮬레이션최적화",
+        "course_code": "IE2002715",
+        "course_name": "시뮬레이션최적화",
+        "score": 0.4321314930915833
+      },
+      {
+        "course_key": "산업공학과::IE3400078::데이터베이스",
+        "course_code": "IE3400078",
+        "course_name": "데이터베이스",
+        "score": 0.4312715530395508
+      },
+      {
+        "course_key": "산업공학과::IE2400223::데이터마이닝",
+        "course_code": "IE2400223",
+        "course_name": "데이터마이닝",
+        "score": 0.4146779656410217
+      },
+      {
+        "course_key": "산업공학과::IE2002712::회귀분석",
+        "course_code": "IE2002712",
+        "course_name": "회귀분석",
+        "score": 0.4078281790018082
+      },
+      {
+        "course_key": "산업공학과::IE2002714::최적화모형과응용",
+        "course_code": "IE2002714",
+        "course_name": "최적화모형과응용",
+        "score": 0.3943579986691475
+      },
+      {
+        "course_key": "해양학과::MS3400997::자료분석을위한파이썬",
+        "course_code": "MS3400997",
+        "course_name": "자료분석을위한파이썬",
+        "score": 0.3931019604206085
+      },
+      {
+        "course_key": "산업공학과::IE3500735::스마트제조",
+        "course_code": "IE3500735",
+        "course_name": "스마트제조",
+        "score": 0.39274620413780215
+      },
+      {
+        "course_key": "산업공학과::IE1600795::데이터구조및알고리즘",
+        "course_code": "IE1600795",
+        "course_name": "데이터구조및알고리즘",
+        "score": 0.3904651939868927
+      },
+      {
+        "course_key": "해양학과::MS2001263::딥러닝기반해양자료분석",
+        "course_code": "MS2001263",
+        "course_name": "딥러닝기반해양자료분석",
+        "score": 0.38133591413497925
+      },
+      {
+        "course_key": "해양학과::MS2300351::생물해양학(I)",
+        "course_code": "MS2300351",
+        "course_name": "생물해양학(I)",
+        "score": 0.3750715136528015
+      }
+    ],
+    "BSMD-008": [
+      {
+        "course_key": "통계학과::ST3600011::실험계획법",
+        "course_code": "ST3600011",
+        "course_name": "실험계획법",
+        "score": 0.5273375638893673
+      },
+      {
+        "course_key": "조선해양공학과::NO2100500::공통기초실험",
+        "course_code": "NO2100500",
+        "course_name": "공통기초실험",
+        "score": 0.5263810753822327
+      },
+      {
+        "course_key": "산업공학과::IE2400210::공학통계(I)",
+        "course_code": "IE2400210",
+        "course_name": "공학통계(I)",
+        "score": 0.5085857404129845
+      },
+      {
+        "course_key": "해양학과::MS3400997::자료분석을위한파이썬",
+        "course_code": "MS3400997",
+        "course_name": "자료분석을위한파이썬",
+        "score": 0.4878047321523939
+      },
+      {
+        "course_key": "산업공학과::IE2400223::데이터마이닝",
+        "course_code": "IE2400223",
+        "course_name": "데이터마이닝",
+        "score": 0.4809888558728354
+      },
+      {
+        "course_key": "산업공학과::IE2002712::회귀분석",
+        "course_code": "IE2002712",
+        "course_name": "회귀분석",
+        "score": 0.47550137979643686
+      },
+      {
+        "course_key": "조선해양공학과::NO2500103::운동해양실험",
+        "course_code": "NO2500103",
+        "course_name": "운동해양실험",
+        "score": 0.4740317293575832
+      },
+      {
+        "course_key": "조선해양공학과::NO1600789::파이썬프로그래밍",
+        "course_code": "NO1600789",
+        "course_name": "파이썬프로그래밍",
+        "score": 0.47248201285089764
+      },
+      {
+        "course_key": "조선해양공학과::NO2001245::조선해양캡스톤디자인(I)",
+        "course_code": "NO2001245",
+        "course_name": "조선해양캡스톤디자인(I)",
+        "score": 0.4601197668484279
+      },
+      {
+        "course_key": "통계학과::ST1600769::통계프로그래밍언어(II)",
+        "course_code": "ST1600769",
+        "course_name": "통계프로그래밍언어(II)",
+        "score": 0.4568217396736145
+      }
+    ],
+    "BSMD-009": [
+      {
+        "course_key": "산업공학과::IE2002715::시뮬레이션최적화",
+        "course_code": "IE2002715",
+        "course_name": "시뮬레이션최적화",
+        "score": 0.47047603875398636
+      },
+      {
+        "course_key": "조선해양공학과::NO2001245::조선해양캡스톤디자인(I)",
+        "course_code": "NO2001245",
+        "course_name": "조선해양캡스톤디자인(I)",
+        "score": 0.43068984150886536
+      },
+      {
+        "course_key": "산업공학과::IE3500735::스마트제조",
+        "course_code": "IE3500735",
+        "course_name": "스마트제조",
+        "score": 0.40942173451185226
+      },
+      {
+        "course_key": "산업공학과::IE2002714::최적화모형과응용",
+        "course_code": "IE2002714",
+        "course_name": "최적화모형과응용",
+        "score": 0.402092257514596
+      },
+      {
+        "course_key": "산업공학과::IE2400223::데이터마이닝",
+        "course_code": "IE2400223",
+        "course_name": "데이터마이닝",
+        "score": 0.3907875306904316
+      },
+      {
+        "course_key": "산업공학과::IE3400078::데이터베이스",
+        "course_code": "IE3400078",
+        "course_name": "데이터베이스",
+        "score": 0.37283163890242577
+      },
+      {
+        "course_key": "산업공학과::IE3600658::머신러닝수학",
+        "course_code": "IE3600658",
+        "course_name": "머신러닝수학",
+        "score": 0.3618896082043648
+      },
+      {
+        "course_key": "조선해양공학과::NO2500091::구조실험",
+        "course_code": "NO2500091",
+        "course_name": "구조실험",
+        "score": 0.3603178411722183
+      },
+      {
+        "course_key": "통계학과::ST2400969::데이터마이닝입문",
+        "course_code": "ST2400969",
+        "course_name": "데이터마이닝입문",
+        "score": 0.3574706260114908
+      },
+      {
+        "course_key": "산업공학과::IE1600795::데이터구조및알고리즘",
+        "course_code": "IE1600795",
+        "course_name": "데이터구조및알고리즘",
+        "score": 0.35581654869019985
+      }
+    ],
+    "BSMD-010": [
+      {
+        "course_key": "조선해양공학과::NO2001245::조선해양캡스톤디자인(I)",
+        "course_code": "NO2001245",
+        "course_name": "조선해양캡스톤디자인(I)",
+        "score": 0.526619573434194
+      },
+      {
+        "course_key": "해양학과::MS3400997::자료분석을위한파이썬",
+        "course_code": "MS3400997",
+        "course_name": "자료분석을위한파이썬",
+        "score": 0.4588420242071152
+      },
+      {
+        "course_key": "산업공학과::IE1600795::데이터구조및알고리즘",
+        "course_code": "IE1600795",
+        "course_name": "데이터구조및알고리즘",
+        "score": 0.4476766337951024
+      },
+      {
+        "course_key": "산업공학과::IE2002714::최적화모형과응용",
+        "course_code": "IE2002714",
+        "course_name": "최적화모형과응용",
+        "score": 0.442934309442838
+      },
+      {
+        "course_key": "산업공학과::IE3400078::데이터베이스",
+        "course_code": "IE3400078",
+        "course_name": "데이터베이스",
+        "score": 0.4423465480407079
+      },
+      {
+        "course_key": "산업공학과::IE2002712::회귀분석",
+        "course_code": "IE2002712",
+        "course_name": "회귀분석",
+        "score": 0.43741823732852936
+      },
+      {
+        "course_key": "조선해양공학과::NO2100500::공통기초실험",
+        "course_code": "NO2100500",
+        "course_name": "공통기초실험",
+        "score": 0.42620544135570526
+      },
+      {
+        "course_key": "산업공학과::IE2400223::데이터마이닝",
+        "course_code": "IE2400223",
+        "course_name": "데이터마이닝",
+        "score": 0.4222319821516673
+      },
+      {
+        "course_key": "조선해양공학과::NO2500103::운동해양실험",
+        "course_code": "NO2500103",
+        "course_name": "운동해양실험",
+        "score": 0.4176277071237564
+      },
+      {
+        "course_key": "산업공학과::IE2002715::시뮬레이션최적화",
+        "course_code": "IE2002715",
+        "course_name": "시뮬레이션최적화",
+        "score": 0.40446438392003375
+      }
+    ]
+  }
+}

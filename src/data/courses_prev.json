@@ -1,0 +1,1264 @@
+{
+  "data": [
+    {
+      "major": "산업공학과",
+      "course": [
+        {
+          "priority": 1,
+          "course_name": "데이터구조및알고리즘",
+          "course_code": "IE1600795",
+          "category_in_curriculum": "전공선택(산업공학)",
+          "recommended_year_semester": null,
+          "credits": 3.0,
+          "class_type": "이론+응용",
+          "tools": [
+            "Python",
+            "R",
+            "SQL"
+          ],
+          "course_overview": "추상 데이터 형식과 자료구조를 이해하고 알고리즘 효율성을 분석합니다.\n배열·연결리스트·트리·우선순위큐·해싱·그래프 등과 정렬/검색 및 다양한 설계 패턴을 다룹니다.",
+          "learning_objectives": [
+            "대용량 해양·조선 데이터를 다루기 위한 핵심 자료구조/알고리즘 기반 확보",
+            "성능(시간·공간) 관점의 구현 역량 강화"
+          ],
+          "key_topics": [
+            "추상 데이터 형식과 자료구조를 이해하고 알고리즘 효율성을 분석합니다. 배열·연결리스트·트리·우선순위큐·해싱·그래프 등과 정렬/검색 및 다양한 설계 패턴을 다룹니다."
+          ],
+          "typical_outputs": [
+            "과목 기반 미니프로젝트 또는 분석 리포트",
+            "데이터 모델링·해석 결과 요약 자료"
+          ],
+          "relatedJobIds": [
+            "BSMD-003",
+            "BSMD-004",
+            "BSMD-009"
+          ]
+        },
+        {
+          "priority": 2,
+          "course_name": "공학통계(I)",
+          "course_code": "IE2400210",
+          "category_in_curriculum": "전공선택(산업공학)",
+          "recommended_year_semester": null,
+          "credits": 3.0,
+          "class_type": "이론+응용",
+          "tools": [
+            "Python",
+            "R",
+            "SQL"
+          ],
+          "course_overview": "불확실성을 확률모델로 다루는 확률·통계의 기초를 학습합니다. 확률이론/모델, 확률변수, 확률과정의 기초를 이해하는 데 초점을 둡니다.",
+          "learning_objectives": [
+            "센서/운항/공정 데이터의 변동성·노이즈를 정량적으로 해석",
+            "추정·검정·모델링 등 데이터 분석의 기반 수학 확보"
+          ],
+          "key_topics": [
+            "불확실성을 확률모델로 다루는 확률·통계의 기초를 학습합니다. 확률이론/모델",
+            "확률변수",
+            "확률과정의 기초를 이해하는 데 초점을 둡니다."
+          ],
+          "typical_outputs": [
+            "과목 기반 미니프로젝트 또는 분석 리포트",
+            "데이터 모델링·해석 결과 요약 자료"
+          ],
+          "relatedJobIds": [
+            "BSMD-001",
+            "BSMD-003",
+            "BSMD-010"
+          ]
+        },
+        {
+          "priority": 3,
+          "course_name": "데이터베이스",
+          "course_code": "IE3400078",
+          "category_in_curriculum": "전공선택(산업공학)",
+          "recommended_year_semester": null,
+          "credits": 3.0,
+          "class_type": "이론+응용",
+          "tools": [
+            "Python",
+            "R",
+            "SQL"
+          ],
+          "course_overview": "데이터베이스 및 빅데이터 시스템의 기본 이론을 학습하고, 설계·구현 등 구축에 필요한 기본 지식을 습득합니다. 설계 실습과 프로젝트를 통해 적용 역량을 강화합니다.",
+          "learning_objectives": [
+            "해양·조선 로그/센서/업무 데이터의 저장·조회·모델링 역량",
+            "ETL/데이터 파이프라인 설계 기반"
+          ],
+          "key_topics": [
+            "데이터베이스 및 빅데이터 시스템의 기본 이론을 학습하고",
+            "설계·구현 등 구축에 필요한 기본 지식을 습득합니다. 설계 실습과 프로젝트를 통해 적용 역량을 강화합니다."
+          ],
+          "typical_outputs": [
+            "과목 기반 미니프로젝트 또는 분석 리포트",
+            "데이터 모델링·해석 결과 요약 자료"
+          ],
+          "relatedJobIds": [
+            "BSMD-001",
+            "BSMD-002",
+            "BSMD-004",
+            "BSMD-007",
+            "BSMD-009",
+            "BSMD-010"
+          ]
+        },
+        {
+          "priority": 4,
+          "course_name": "데이터마이닝",
+          "course_code": "IE2400223",
+          "category_in_curriculum": "전공선택(산업공학)",
+          "recommended_year_semester": null,
+          "credits": 3.0,
+          "class_type": "이론+응용",
+          "tools": [
+            "Python",
+            "R",
+            "SQL"
+          ],
+          "course_overview": "대용량 데이터에서 유용한 패턴을 찾기 위한 이론과 기법을 학습합니다. 사기 탐지·추천·보안 등 응용을 예로 들며 핵심 알고리즘과 이론을 다룹니다.",
+          "learning_objectives": [
+            "이상탐지(설비/운항), 패턴발견(정비/품질), 추천(부품/정비) 등 적용 가능",
+            "실무형 알고리즘 선택·해석 능력 강화"
+          ],
+          "key_topics": [
+            "대용량 데이터에서 유용한 패턴을 찾기 위한 이론과 기법을 학습합니다. 사기 탐지·추천·보안 등 응용을 예로 들며 핵심 알고리즘과 이론을 다룹니다."
+          ],
+          "typical_outputs": [
+            "과목 기반 미니프로젝트 또는 분석 리포트",
+            "데이터 모델링·해석 결과 요약 자료"
+          ],
+          "relatedJobIds": [
+            "BSMD-002",
+            "BSMD-003",
+            "BSMD-004"
+          ]
+        },
+        {
+          "priority": 5,
+          "course_name": "회귀분석",
+          "course_code": "IE2002712",
+          "category_in_curriculum": "전공선택(산업공학)",
+          "recommended_year_semester": null,
+          "credits": 3.0,
+          "class_type": "이론+응용",
+          "tools": [
+            "Python",
+            "R",
+            "SQL"
+          ],
+          "course_overview": "회귀분석을 포함한 예측 모델링/분석을 구현·평가하는 관점을 다룹니다(머신러닝·딥러닝 기반 회귀/객체검출 구현과 비교 분석 등).",
+          "learning_objectives": [
+            "연료소모/운항효율/품질지표 등 연속값 예측 과제에 직접 활용",
+            "모델 성능 비교·해석(기초) 역량"
+          ],
+          "key_topics": [
+            "회귀분석을 포함한 예측 모델링/분석을 구현·평가하는 관점을 다룹니다(머신러닝·딥러닝 기반 회귀/객체검출 구현과 비교 분석 등)."
+          ],
+          "typical_outputs": [
+            "과목 기반 미니프로젝트 또는 분석 리포트",
+            "데이터 모델링·해석 결과 요약 자료"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 6,
+          "course_name": "머신러닝수학",
+          "course_code": "IE3600658",
+          "category_in_curriculum": "전공선택(산업공학)",
+          "recommended_year_semester": null,
+          "credits": 3.0,
+          "class_type": "이론+응용",
+          "tools": [
+            "Python",
+            "R",
+            "SQL"
+          ],
+          "course_overview": "머신러닝·딥러닝·빅데이터 분석에 핵심적으로 쓰이는 수학(행렬·다변수 미적분·최적화·확률통계)을 다루고, 수학 개념이 ML/DL에 어떻게 쓰이는지 프로젝트로 실습합니다.",
+          "learning_objectives": [
+            "모델링(최적화/확률) 이해 기반 강화 → 데이터 분석 엔지니어 핵심 역량",
+            "딥러닝/시계열/비정형 데이터 모델 학습 원리 이해"
+          ],
+          "key_topics": [
+            "머신러닝·딥러닝·빅데이터 분석에 핵심적으로 쓰이는 수학(행렬·다변수 미적분·최적화·확률통계)을 다루고",
+            "수학 개념이 ML/DL에 어떻게 쓰이는지 프로젝트로 실습합니다."
+          ],
+          "typical_outputs": [
+            "과목 기반 미니프로젝트 또는 분석 리포트",
+            "데이터 모델링·해석 결과 요약 자료"
+          ],
+          "relatedJobIds": [
+            "BSMD-006",
+            "BSMD-009"
+          ]
+        },
+        {
+          "priority": 7,
+          "course_name": "딥러닝",
+          "course_code": "IE2001445",
+          "category_in_curriculum": "전공선택(산업공학)",
+          "recommended_year_semester": null,
+          "credits": 3.0,
+          "class_type": "이론+응용",
+          "tools": [
+            "Python",
+            "R",
+            "SQL"
+          ],
+          "course_overview": "정형·비정형(이미지/음성) 및 시계열 데이터에 적용 가능한 심층 신경망을 학습하며, Attention/Transformer 등 시퀀스 기반 모델과 데이터 생성 모델 학습을 포함합니다.",
+          "learning_objectives": [
+            "선박/해양 센서 시계열 분석, 영상 기반 검사(결함 탐지) 등에 적용",
+            "현업에서 요구되는 최신 모델 계열(Transformer 등) 이해"
+          ],
+          "key_topics": [
+            "정형·비정형(이미지/음성) 및 시계열 데이터에 적용 가능한 심층 신경망을 학습하며",
+            "Attention/Transformer 등 시퀀스 기반 모델과 데이터 생성 모델 학습을 포함합니다."
+          ],
+          "typical_outputs": [
+            "과목 기반 미니프로젝트 또는 분석 리포트",
+            "데이터 모델링·해석 결과 요약 자료"
+          ],
+          "relatedJobIds": [
+            "BSMD-002",
+            "BSMD-003",
+            "BSMD-006"
+          ]
+        },
+        {
+          "priority": 8,
+          "course_name": "시뮬레이션최적화",
+          "course_code": "IE2002715",
+          "category_in_curriculum": "전공선택(산업공학)",
+          "recommended_year_semester": null,
+          "credits": 3.0,
+          "class_type": "이론+응용",
+          "tools": [
+            "Python",
+            "R",
+            "SQL"
+          ],
+          "course_overview": "시뮬레이션 방법론을 학습하고 이를 모델에 적용해보는 접근을 다룹니다(다양한 시뮬레이션 기법을 학습 후 모형에 적용).",
+          "learning_objectives": [
+            "조선 공정/물류/운항 시나리오를 '모의실험→의사결정'으로 평가",
+            "실험 비용이 큰 현장(조선/해양)에서 유효한 분석 프레임"
+          ],
+          "key_topics": [
+            "시뮬레이션 방법론을 학습하고 이를 모델에 적용해보는 접근을 다룹니다(다양한 시뮬레이션 기법을 학습 후 모형에 적용)."
+          ],
+          "typical_outputs": [
+            "과목 기반 미니프로젝트 또는 분석 리포트",
+            "데이터 모델링·해석 결과 요약 자료"
+          ],
+          "relatedJobIds": [
+            "BSMD-002",
+            "BSMD-004",
+            "BSMD-009"
+          ]
+        },
+        {
+          "priority": 9,
+          "course_name": "최적화모형과응용",
+          "course_code": "IE2002714",
+          "category_in_curriculum": "전공선택(산업공학)",
+          "recommended_year_semester": null,
+          "credits": 3.0,
+          "class_type": "이론+응용",
+          "tools": [
+            "Python",
+            "R",
+            "SQL"
+          ],
+          "course_overview": "의사결정 문제를 모델링하고 최적화하는 다양한 최적화 기법을 학습합니다.",
+          "learning_objectives": [
+            "배차/스케줄링/자원배분(도크, 인력, 장비) 등 조선·물류 최적화에 연결",
+            "분석 결과를 '의사결정'으로 전환하는 능력 강화"
+          ],
+          "key_topics": [
+            "의사결정 문제를 모델링하고 최적화하는 다양한 최적화 기법을 학습합니다."
+          ],
+          "typical_outputs": [
+            "과목 기반 미니프로젝트 또는 분석 리포트",
+            "데이터 모델링·해석 결과 요약 자료"
+          ],
+          "relatedJobIds": [
+            "BSMD-001",
+            "BSMD-002",
+            "BSMD-004",
+            "BSMD-009"
+          ]
+        },
+        {
+          "priority": 10,
+          "course_name": "스마트제조",
+          "course_code": "IE3500735",
+          "category_in_curriculum": "전공선택(산업공학)",
+          "recommended_year_semester": null,
+          "credits": 3.0,
+          "class_type": "이론+응용",
+          "tools": [
+            "Python",
+            "R",
+            "SQL"
+          ],
+          "course_overview": "제조/물류 분야에서 데이터사이언스 적용 사례를 살펴보고, 산업 이해와 실제 데이터 적용을 통해 제조·물류 문제 해결 역량을 배양합니다.",
+          "learning_objectives": [
+            "스마트 야드/스마트 팩토리 맥락에서 데이터 활용(품질·정비·공정)과 직결",
+            "도메인 지식+데이터 분석 결합 역량 강화"
+          ],
+          "key_topics": [
+            "제조/물류 분야에서 데이터사이언스 적용 사례를 살펴보고",
+            "산업 이해와 실제 데이터 적용을 통해 제조·물류 문제 해결 역량을 배양합니다."
+          ],
+          "typical_outputs": [
+            "과목 기반 미니프로젝트 또는 분석 리포트",
+            "데이터 모델링·해석 결과 요약 자료"
+          ],
+          "relatedJobIds": [
+            "BSMD-002"
+          ]
+        }
+      ]
+    },
+    {
+      "major": "조선해양공학과",
+      "course": [
+        {
+          "priority": 1,
+          "course_name": "파이썬프로그래밍",
+          "course_code": "NO1600789",
+          "category_in_curriculum": "전공기초",
+          "recommended_year_semester": "2학년 1~2학기",
+          "credits": 2,
+          "class_type": "이론+실습",
+          "tools": [
+            "Python",
+            "Pandas",
+            "NumPy",
+            "Matplotlib"
+          ],
+          "course_overview": "공학·데이터 분석 업무에 필요한 파이썬 프로그래밍 기초와 데이터 처리/시각화의 기본기를 학습합니다.",
+          "learning_objectives": [
+            "파이썬 기반 데이터 전처리(결측/형변환/정규화 등) 수행",
+            "기초 통계·시각화를 통해 데이터 인사이트 도출",
+            "재현 가능한 코드/노트북 형태로 분석 결과 정리"
+          ],
+          "key_topics": [
+            "변수/제어문/함수",
+            "리스트·배열·데이터프레임",
+            "파일 입출력(CSV 등)",
+            "기초 시각화"
+          ],
+          "typical_outputs": [
+            "분석 과제(코드)",
+            "데이터 전처리 스크립트",
+            "간단한 분석 리포트(노트북/문서)"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 2,
+          "course_name": "동역학",
+          "course_code": "NO1100033",
+          "category_in_curriculum": "전공기초",
+          "recommended_year_semester": "2학년 1~2학기",
+          "credits": 3,
+          "class_type": "이론",
+          "tools": [
+            "수식 모델링",
+            "MATLAB 또는 Python(보조)"
+          ],
+          "course_overview": "선박·해양 구조물의 운동을 기술하는 역학 이론을 통해, 거동 데이터 해석의 물리적 기반을 다집니다.",
+          "learning_objectives": [
+            "운동 방정식을 세우고 해석할 수 있음",
+            "시스템 거동(가속도/속도/변위)의 관계 이해",
+            "해양·조선 데이터(운동/하중)의 의미를 물리적으로 설명"
+          ],
+          "key_topics": [
+            "질점/강체 운동",
+            "에너지/운동량",
+            "구속조건과 좌표계",
+            "기본 진동 개념(도입)"
+          ],
+          "typical_outputs": [
+            "문제풀이 리포트",
+            "모델링 과제(간단)",
+            "시험"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 3,
+          "course_name": "스마트제어공학",
+          "course_code": "NO2001004",
+          "category_in_curriculum": "전공선택",
+          "recommended_year_semester": "4학년 1~2학기",
+          "credits": 3,
+          "class_type": "이론+실습(시뮬레이션)",
+          "tools": [
+            "MATLAB",
+            "Simulink",
+            "제어 블록다이어그램"
+          ],
+          "course_overview": "센서·제어 기반의 시스템 모델링과 피드백 제어 원리를 학습하고, 시뮬레이션을 통해 시스템 응답 데이터를 분석합니다.",
+          "learning_objectives": [
+            "시스템(전달함수/상태공간) 모델링 수행",
+            "피드백 제어기 설계 및 성능 평가",
+            "시뮬레이션 결과 데이터로 안정성/응답특성 해석"
+          ],
+          "key_topics": [
+            "시스템 모델링",
+            "피드백 제어",
+            "안정도/주파수응답",
+            "제어기 튜닝 및 검증"
+          ],
+          "typical_outputs": [
+            "Simulink 모델",
+            "제어 설계 보고서",
+            "응답 데이터 분석 결과"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 4,
+          "course_name": "조선해양캡스톤디자인(I)",
+          "course_code": "NO2001245",
+          "category_in_curriculum": "전공선택",
+          "recommended_year_semester": "4학년 1~2학기",
+          "credits": 1,
+          "class_type": "프로젝트(캡스톤)",
+          "tools": [
+            "Python(분석)",
+            "MATLAB(시뮬레이션)",
+            "협업도구(문서/형상관리)"
+          ],
+          "course_overview": "조선·해양 문제를 팀 프로젝트로 정의하고 설계–실험/시뮬–분석을 통합 수행하는 실무형 캡스톤 과목입니다.",
+          "learning_objectives": [
+            "문제정의→요구사항→설계→검증의 프로젝트 사이클 수행",
+            "데이터 수집·정제·분석을 설계 의사결정에 반영",
+            "협업 산출물을 문서/발표 형태로 구조화"
+          ],
+          "key_topics": [
+            "요구사항 정의",
+            "시스템/구조 설계",
+            "검증(실험/시뮬)",
+            "프로젝트 관리"
+          ],
+          "typical_outputs": [
+            "최종 보고서",
+            "발표자료",
+            "프로토타입/모델",
+            "분석 코드/데이터셋(선택)"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 5,
+          "course_name": "공통기초실험",
+          "course_code": "NO2100500",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "2학년 1~2학기",
+          "credits": 1,
+          "class_type": "실험",
+          "tools": [
+            "기초 계측",
+            "Excel",
+            "MATLAB 또는 Python(보조)"
+          ],
+          "course_overview": "공학 실험의 기본 절차(계측·오차·보고서 작성)를 익히고, 실험 데이터를 정리·해석하는 기초 역량을 강화합니다.",
+          "learning_objectives": [
+            "기본 계측 장비 사용 및 데이터 기록",
+            "오차/불확도 개념 이해",
+            "실험 데이터를 정리하고 결론을 도출하여 보고서 작성"
+          ],
+          "key_topics": [
+            "계측/센서 기초",
+            "데이터 기록/정리",
+            "오차 분석",
+            "실험 보고서 작성"
+          ],
+          "typical_outputs": [
+            "실험 보고서",
+            "측정 데이터 정리표",
+            "간단한 분석 그래프"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 6,
+          "course_name": "선박기본설계",
+          "course_code": "NO2500040",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "4학년 1~2학기",
+          "credits": 3,
+          "class_type": "이론+설계",
+          "tools": [
+            "CAD/CAE(개요)",
+            "설계도면",
+            "수치해석(보조)"
+          ],
+          "course_overview": "선박 설계의 기본 절차와 주요 설계 요소를 학습하여, 설계 데이터(치수/성능/제약조건)의 구조를 이해합니다.",
+          "learning_objectives": [
+            "기본 설계 파라미터와 제약조건 이해",
+            "설계안 비교/평가의 논리 습득",
+            "설계 산출물과 관련 데이터의 의미 파악"
+          ],
+          "key_topics": [
+            "선박 설계 프로세스",
+            "주요 성능지표",
+            "기본 배치/치수 결정",
+            "설계 검토"
+          ],
+          "typical_outputs": [
+            "설계 과제(계산/표)",
+            "설계 요약 보고서",
+            "설계안 비교 자료"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 7,
+          "course_name": "구조실험",
+          "course_code": "NO2500091",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "4학년 1~2학기",
+          "credits": 1,
+          "class_type": "실험",
+          "tools": [
+            "계측(스트레인게이지 등)",
+            "데이터로거",
+            "MATLAB 또는 Python"
+          ],
+          "course_overview": "구조물의 하중–변형–파괴 거동을 실험으로 관찰하고, 구조 응답 데이터를 분석하여 모델 검증의 기초를 익힙니다.",
+          "learning_objectives": [
+            "하중/변형 측정 데이터 해석",
+            "실험 설계 및 데이터 품질(노이즈/이상치) 관리",
+            "이론 모델과 실험 결과 비교·검증"
+          ],
+          "key_topics": [
+            "재료/구조 거동",
+            "계측(변형률/하중)",
+            "데이터 정리/그래프화",
+            "모델 검증"
+          ],
+          "typical_outputs": [
+            "실험 보고서",
+            "응력–변형률 곡선",
+            "검증 결과 요약"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 8,
+          "course_name": "운동해양실험",
+          "course_code": "NO2500103",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "4학년 1~2학기",
+          "credits": 1,
+          "class_type": "실험",
+          "tools": [
+            "실험계측(센서)",
+            "신호처리",
+            "MATLAB 또는 Python"
+          ],
+          "course_overview": "해양 유체 및 운동 관련 실험을 통해 운동/유체 데이터의 측정과 해석을 수행하고, 해양 현상 이해를 확장합니다.",
+          "learning_objectives": [
+            "해양 운동·유체 관련 데이터 측정/정리",
+            "실험 조건 변화에 따른 결과 해석",
+            "신호/노이즈를 고려한 데이터 분석"
+          ],
+          "key_topics": [
+            "유체/운동 실험",
+            "데이터 수집/전처리",
+            "결과 해석",
+            "실험 오차/재현성"
+          ],
+          "typical_outputs": [
+            "실험 보고서",
+            "시간영역 데이터/그래프",
+            "조건별 비교 분석"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 9,
+          "course_name": "진동음향실험",
+          "course_code": "NO2500110",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "4학년 1~2학기",
+          "credits": 1,
+          "class_type": "실험",
+          "tools": [
+            "FFT/스펙트럼 분석",
+            "데이터로거",
+            "MATLAB 또는 Python"
+          ],
+          "course_overview": "진동·음향 신호의 측정과 분석을 통해, 센서 기반 시계열/주파수 데이터 처리(예: FFT) 역량을 강화합니다.",
+          "learning_objectives": [
+            "진동·음향 데이터 측정 및 전처리",
+            "주파수 분석(스펙트럼) 수행",
+            "이상 징후/공진 등 특징을 데이터로 해석"
+          ],
+          "key_topics": [
+            "신호처리 기초",
+            "FFT/스펙트럼",
+            "공진/감쇠",
+            "센서 데이터 품질 관리"
+          ],
+          "typical_outputs": [
+            "실험 보고서",
+            "스펙트럼 플롯",
+            "특징값 추출 요약"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 10,
+          "course_name": "해양구조물설계",
+          "course_code": "NO2500113",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "4학년 1~2학기",
+          "credits": 3,
+          "class_type": "이론+설계",
+          "tools": [
+            "CAD/CAE(개요)",
+            "설계도면",
+            "수치해석(보조)"
+          ],
+          "course_overview": "해양 구조물의 설계 원리와 검토 절차를 학습하여, 설계 변수와 성능/안전 기준 간 관계를 데이터로 이해합니다.",
+          "learning_objectives": [
+            "설계 요구조건과 기준의 적용",
+            "설계 변수 변화가 성능에 미치는 영향 분석",
+            "설계 결과를 문서화/설명"
+          ],
+          "key_topics": [
+            "해양 구조물 설계개요",
+            "하중/환경조건",
+            "안전성 검토",
+            "설계 문서화"
+          ],
+          "typical_outputs": [
+            "설계 계산서(요약)",
+            "설계 보고서",
+            "검토 체크리스트(선택)"
+          ],
+          "relatedJobIds": []
+        }
+      ]
+    },
+    {
+      "major": "통계학과",
+      "course": [
+        {
+          "priority": 1,
+          "course_name": "통계적확률론(I)",
+          "course_code": "ST2200456",
+          "category_in_curriculum": "전공기초",
+          "recommended_year_semester": "2-1",
+          "credits": "3-3-0",
+          "class_type": "이론 중심(확률론 기반 통계 이론 과목)",
+          "tools": [],
+          "course_overview": "확률의 공리적 정의와 확률측도 관점에서 확률론의 기초를 학습하고, 이산형 확률변수 및 대표 분포들을 체계적으로 다룹니다.",
+          "learning_objectives": [
+            "확률의 공리/확률측도 관점에서 확률을 엄밀히 이해",
+            "조건부확률·독립성·베이즈 정리를 활용해 사건/확률변수 관계를 해석",
+            "이산형 확률분포의 성질과 적률을 통해 데이터 생성 메커니즘을 설명"
+          ],
+          "key_topics": [
+            "확률의 정의와 성질, 확률측도, 확률의 연속성",
+            "조합론 기초, 포함-배제원리",
+            "조건부 확률, 베이즈 정리, 독립/조건부 독립",
+            "이산형 확률변수, 누적분포함수, 적률, 이산형 결합분포",
+            "베르누이/이항/기하/초기하/음이항/포아송 분포"
+          ],
+          "typical_outputs": [
+            "분포/기댓값/분산 계산 및 증명형 과제",
+            "조건부확률·베이즈 적용 문제 풀이"
+          ],
+          "relatedJobIds": [
+            "BSMD-008"
+          ]
+        },
+        {
+          "priority": 2,
+          "course_name": "수리통계학(I)",
+          "course_code": "ST2200419",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "2-1",
+          "credits": "3-3-0",
+          "class_type": "이론 중심(통계적 추론의 수학적 토대)",
+          "tools": [],
+          "course_overview": "분포·확률변수·수렴/극한분포 등 통계적 추론의 기반 개념을 수학적으로 정리하고, 점근적 관점에서 추정과 추론의 기초를 다룹니다.",
+          "learning_objectives": [
+            "확률분포/독립성/변환분포 등 추론의 기본 언어 습득",
+            "불편성·일치성 개념을 통해 추정량의 성질을 평가",
+            "확률변수열의 수렴과 중심극한정리를 활용해 점근적 추론을 이해"
+          ],
+          "key_topics": [
+            "분포함수, 확률변수, 독립성, 확률분포",
+            "확률변수 함수의 분포",
+            "불편성, 일치성",
+            "확률변수열의 수렴, 극한분포",
+            "중심극한정리"
+          ],
+          "typical_outputs": [
+            "추정량 성질(불편/일치) 증명 및 비교 과제",
+            "극한분포/CLT 기반 근사 추론 문제 풀이"
+          ],
+          "relatedJobIds": [
+            "BSMD-008"
+          ]
+        },
+        {
+          "priority": 3,
+          "course_name": "회귀분석(I)",
+          "course_code": "ST2200422",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "3-1",
+          "credits": "3-3-0",
+          "class_type": "이론+모형진단(선형회귀모형 중심)",
+          "tools": [],
+          "course_overview": "선형회귀모형의 추정·검정·해석을 학습하고, 잔차분석/영향점 탐색 등 모형 진단을 통해 실제 데이터 적용을 위한 분석 절차를 익힙니다.",
+          "learning_objectives": [
+            "단순/중선형회귀의 추정과 가설검정을 수행",
+            "가우스–마르코프 정리 등 선형모형의 핵심 가정을 이해",
+            "잔차·영향점 분석으로 모형 적합성과 위험 요인을 진단"
+          ],
+          "key_topics": [
+            "행렬의 기본 이론, 통계의 기초 개념",
+            "단순선형회귀모형(추정, 가우스–마르코프 정리, 잔차분석)",
+            "중선형회귀모형(추정, 검정, 동시신뢰구간, 일반화 가설검정)",
+            "모형 진단 및 영향력 관측치 탐색(쿡 통계량, 교차확인, 모형의 검정)"
+          ],
+          "typical_outputs": [
+            "회귀모형 적합 및 해석 리포트(변수선정/가정점검 포함)",
+            "영향점/이상치 진단 결과 요약"
+          ],
+          "relatedJobIds": [
+            "BSMD-001",
+            "BSMD-003",
+            "BSMD-005",
+            "BSMD-007",
+            "BSMD-008"
+          ]
+        },
+        {
+          "priority": 4,
+          "course_name": "실험계획법",
+          "course_code": "ST3600011",
+          "category_in_curriculum": "전공선택",
+          "recommended_year_semester": "3-1",
+          "credits": "3-3-0",
+          "class_type": "설계+분석(실험설계 및 분산분석 계열)",
+          "tools": [],
+          "course_overview": "효율적인 실험을 설계하고(배치/요인설계 등) 실험자료를 분석하는 방법을 다루며, 결측·혼합모형 등 실제 실험 상황을 고려한 분석 기법을 학습합니다.",
+          "learning_objectives": [
+            "실험 목적에 맞는 설계(일원/이원/다원/분할 등)를 선택",
+            "결측·혼합모형 상황에서의 추정/검정 절차 이해",
+            "회귀·상관·직교다항식 등을 활용한 반응 분석"
+          ],
+          "key_topics": [
+            "인자와 모형의 분류",
+            "일원·이원배치법, 결측치의 추정",
+            "혼합모형, 다원배치법",
+            "계수치 데이터의 분석, 오차항의 풀링",
+            "분할법, 상관분석, 직교다항식",
+            "중회귀분석, 곡선회귀분석"
+          ],
+          "typical_outputs": [
+            "실험설계 도식 및 분석 결과 요약(ANOVA/회귀 기반)",
+            "결측/혼합모형 사례 해석 과제"
+          ],
+          "relatedJobIds": [
+            "BSMD-008"
+          ]
+        },
+        {
+          "priority": 5,
+          "course_name": "시계열분석",
+          "course_code": "ST3600012",
+          "category_in_curriculum": "전공선택",
+          "recommended_year_semester": "4-1",
+          "credits": "3-3-0",
+          "class_type": "모형 기반 분석(시간의존 데이터)",
+          "tools": [],
+          "course_overview": "시간의존성을 갖는 자료를 정상성 관점에서 이해하고 ARMA/ARIMA 및 계절 모형을 통해 예측과 동학 해석을 수행하는 방법을 다룹니다.",
+          "learning_objectives": [
+            "시계열 분해 및 정상성 개념으로 데이터 구조를 파악",
+            "ARMA/ARIMA/계절 ARIMA 모형을 적합하고 예측 수행",
+            "모형 선택과 진단을 통해 예측 신뢰도를 평가"
+          ],
+          "key_topics": [
+            "분해시계열방법",
+            "확률과정과 정상시계열",
+            "ARMA(p,q) 모형",
+            "비정상시계열과 ARIMA 모형",
+            "계절 ARIMA 모형"
+          ],
+          "typical_outputs": [
+            "시계열 모형 적합 및 예측 결과 보고서",
+            "정상성/잔차 진단 결과 요약"
+          ],
+          "relatedJobIds": [
+            "BSMD-001",
+            "BSMD-003",
+            "BSMD-007"
+          ]
+        },
+        {
+          "priority": 6,
+          "course_name": "다변량통계학(I)",
+          "course_code": "ST2700517",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "3-1",
+          "credits": "3-3-0",
+          "class_type": "이론+기법 소개(다변량 자료 분석)",
+          "tools": [],
+          "course_overview": "다변량 정규분포 기반의 이론을 토대로 차원축소·구조탐색·분류/군집 등 다변량 분석 기법을 학습합니다.",
+          "learning_objectives": [
+            "다변량 자료를 행렬로 표현하고 요약통계를 해석",
+            "다변량 정규성 및 관련 성질을 이해하고 검정",
+            "PCA/요인/판별/군집 등 대표 기법을 적용해 구조를 설명"
+          ],
+          "key_topics": [
+            "다변량 자료의 이해, 다변량 자료의 행렬표현, 요약통계량",
+            "다변량 정규분포와 성질, 다변량 정규성의 검정",
+            "주성분 분석, 요인분석",
+            "판별분석, 군집분석"
+          ],
+          "typical_outputs": [
+            "차원축소(PCA) 또는 군집/판별 결과 해석 보고서",
+            "다변량 정규성 검정 및 요약통계 과제"
+          ],
+          "relatedJobIds": [
+            "BSMD-005",
+            "BSMD-006",
+            "BSMD-007"
+          ]
+        },
+        {
+          "priority": 7,
+          "course_name": "데이터마이닝입문",
+          "course_code": "ST2400969",
+          "category_in_curriculum": "전공선택",
+          "recommended_year_semester": "4-1",
+          "credits": "3-3-0",
+          "class_type": "응용 중심(탐색·예측·군집·연관 규칙)",
+          "tools": [],
+          "course_overview": "대용량 데이터에서 유용한 패턴을 찾기 위한 데이터 탐색/변환과 예측·군집·연관성 분석 기법을 폭넓게 소개합니다.",
+          "learning_objectives": [
+            "데이터 전처리(탐색/변환) 절차를 이해",
+            "의사결정나무·신경망 등 예측모형을 개념적으로 파악",
+            "군집·연관성 분석으로 구조/규칙을 도출"
+          ],
+          "key_topics": [
+            "데이터마이닝 주요개념",
+            "데이터 탐색과 변환",
+            "의사결정나무분석",
+            "회귀분석, 신경망분석",
+            "예측모형평가",
+            "군집분석, 연관성분석"
+          ],
+          "typical_outputs": [
+            "예측모형 비교(평가 포함) 요약",
+            "군집/연관규칙 도출 결과 정리"
+          ],
+          "relatedJobIds": [
+            "BSMD-001",
+            "BSMD-007"
+          ]
+        },
+        {
+          "priority": 8,
+          "course_name": "통계프로그래밍언어(II)",
+          "course_code": "ST1600769",
+          "category_in_curriculum": "전공선택",
+          "recommended_year_semester": "2-1",
+          "credits": "3-3-0",
+          "class_type": "실습 중심(통계분석 도구 활용)",
+          "tools": [
+            "SAS"
+          ],
+          "course_overview": "SAS를 사용하여 기술통계, 추정·가설검정, 회귀분석, 분산분석 등 기초 통계분석을 실습 중심으로 학습합니다.",
+          "learning_objectives": [
+            "SAS로 기초 통계분석을 수행(기술통계~분산분석)",
+            "분석 결과를 표/요약 형태로 정리",
+            "기초 분석 파이프라인(불러오기-정제-분석-출력)을 구성"
+          ],
+          "key_topics": [
+            "기술통계학 기본개념 실습",
+            "추정과 가설검정 실습",
+            "회귀분석 실습",
+            "분산분석 실습"
+          ],
+          "typical_outputs": [
+            "SAS 코드 기반 분석 과제",
+            "기초 통계분석 결과표/요약 리포트"
+          ],
+          "relatedJobIds": [
+            "BSMD-008"
+          ]
+        },
+        {
+          "priority": 9,
+          "course_name": "통계수학(I)",
+          "course_code": "ST2200402",
+          "category_in_curriculum": "전공기초",
+          "recommended_year_semester": "2-1",
+          "credits": "3-3-0",
+          "class_type": "기초 이론(미적분·논리 기반 수학)",
+          "tools": [],
+          "course_overview": "통계 이론을 이해하기 위한 수학적 기초(논리, 수열/급수, 연속/미분/적분)를 다룹니다.",
+          "learning_objectives": [
+            "명제 논리 및 실수계 기본 성질 이해",
+            "수열·급수의 수렴/발산을 설명",
+            "연속·미분·리만적분 및 미적분학 기본정리 적용"
+          ],
+          "key_topics": [
+            "실수계, 명제 논리",
+            "수열과 급수의 수렴과 발산",
+            "함수의 연속성",
+            "함수의 미분 가능성과 리만적분",
+            "미적분학 기본정리"
+          ],
+          "typical_outputs": [
+            "정의/정리 기반 증명·계산 문제 풀이",
+            "미적분 응용 과제"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 10,
+          "course_name": "행렬대수",
+          "course_code": "ST1600138",
+          "category_in_curriculum": "전공기초",
+          "recommended_year_semester": "2-1",
+          "credits": "3-3-0",
+          "class_type": "이론+도구 실습(선형대수와 행렬 계산)",
+          "tools": [
+            "SAS/IML",
+            "R"
+          ],
+          "course_overview": "회귀·다변량 분석의 핵심 도구인 행렬을 중심으로 역행렬, rank, 선형독립 등 선형대수 기초와 계산/구현 방법을 함께 학습합니다.",
+          "learning_objectives": [
+            "행렬식·역행렬·rank 등 핵심 개념 이해",
+            "선형독립/종속을 판단하고 행렬 연산을 수행",
+            "SAS/IML, R 등으로 행렬 계산을 구현"
+          ],
+          "key_topics": [
+            "행렬의 종류와 성질",
+            "행렬식, 역행렬, rank",
+            "선형독립과 종속",
+            "행렬연산(전치, 분할, 덧셈, 스칼라곱, 뺄셈)",
+            "컴퓨터 행렬언어(SAS/IML, R)"
+          ],
+          "typical_outputs": [
+            "행렬 연산/분해 관련 계산 과제",
+            "R 또는 SAS/IML 기반 행렬 계산 실습"
+          ],
+          "relatedJobIds": []
+        }
+      ]
+    },
+    {
+      "major": "해양학과",
+      "course": [
+        {
+          "priority": 1,
+          "course_name": "딥러닝기반해양자료분석",
+          "course_code": "MS2001263",
+          "category_in_curriculum": "전공선택",
+          "recommended_year_semester": "3-?",
+          "credits": 3,
+          "class_type": "이론+실습 병행(해양 전공)",
+          "tools": [
+            "Python",
+            "통계분석 도구",
+            "해양관측 데이터"
+          ],
+          "course_overview": "물리해양학 심화 모듈: 해양 순환과 역할 및 해양 현상의 원리를 이해하고, 인공위성·원격탐사·현장관측 자료에 대한 분석을 수행하는 방향의 교과 구성(모듈 설명 기반). 해양실무 모듈: 해양 관련 기관 실무에 필요한 자료 분석 및 통계처리법 등 실무 능력 함양을 목표로 한 교과 구성(모듈 설명 기반).",
+          "learning_objectives": [
+            "해양 데이터의 생성 맥락과 특성 이해",
+            "해양 현상을 데이터 기반으로 분석",
+            "분석 결과를 보고서 형태로 정리"
+          ],
+          "key_topics": [
+            "물리해양학 심화 모듈: 해양 순환과 역할 및 해양 현상의 원리를 이해하고, 인공위성·원격탐사·현장관측 자료에 대한 분석을 수행하는 방향의 교과 구성(모듈 설명 기반).",
+            "해양실무 모듈: 해양 관련 기관 실무에 필요한 자료 분석 및 통계처리법 등 실무 능력 함양을 목표로 한 교과 구성(모듈 설명 기반)."
+          ],
+          "typical_outputs": [
+            "해양 데이터 분석 요약 리포트",
+            "현장·관측 데이터 기반 과제"
+          ],
+          "relatedJobIds": [
+            "BSMD-006"
+          ]
+        },
+        {
+          "priority": 2,
+          "course_name": "자료분석을위한파이썬",
+          "course_code": "MS3400997",
+          "category_in_curriculum": "전공선택",
+          "recommended_year_semester": "2-?",
+          "credits": 3,
+          "class_type": "이론+실습 병행(해양 전공)",
+          "tools": [
+            "Python",
+            "통계분석 도구",
+            "해양관측 데이터"
+          ],
+          "course_overview": "화학해양학 심화 모듈: 해수 화학 분석과 자료 해석 능력 함양을 목표로 하며, 기후변화(온난화·산성화 등) 및 해양오염 등 주제를 탐구하는 교과 구성(모듈 설명 기반).",
+          "learning_objectives": [
+            "해양 데이터의 생성 맥락과 특성 이해",
+            "해양 현상을 데이터 기반으로 분석",
+            "분석 결과를 보고서 형태로 정리"
+          ],
+          "key_topics": [
+            "화학해양학 심화 모듈: 해수 화학 분석과 자료 해석 능력 함양을 목표로 하며, 기후변화(온난화·산성화 등) 및 해양오염 등 주제를 탐구하는 교과 구성(모듈 설명 기반)."
+          ],
+          "typical_outputs": [
+            "해양 데이터 분석 요약 리포트",
+            "현장·관측 데이터 기반 과제"
+          ],
+          "relatedJobIds": [
+            "BSMD-005",
+            "BSMD-006",
+            "BSMD-010"
+          ]
+        },
+        {
+          "priority": 3,
+          "course_name": "해양조사및실습",
+          "course_code": "MS3200295",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "3-?",
+          "credits": 3,
+          "class_type": "이론+실습 병행(해양 전공)",
+          "tools": [
+            "Python",
+            "통계분석 도구",
+            "해양관측 데이터"
+          ],
+          "course_overview": "해양학 심화(Ⅱ) 모듈: 심화 전공지식을 바탕으로 실제 해양조사선을 이용한 해양 조사 활동을 수행하는 방향의 교과 구성(모듈 설명 기반).",
+          "learning_objectives": [
+            "해양 데이터의 생성 맥락과 특성 이해",
+            "해양 현상을 데이터 기반으로 분석",
+            "분석 결과를 보고서 형태로 정리"
+          ],
+          "key_topics": [
+            "해양학 심화(Ⅱ) 모듈: 심화 전공지식을 바탕으로 실제 해양조사선을 이용한 해양 조사 활동을 수행하는 방향의 교과 구성(모듈 설명 기반)."
+          ],
+          "typical_outputs": [
+            "해양 데이터 분석 요약 리포트",
+            "현장·관측 데이터 기반 과제"
+          ],
+          "relatedJobIds": [
+            "BSMD-010"
+          ]
+        },
+        {
+          "priority": 4,
+          "course_name": "물리해양학(I)",
+          "course_code": "MS2300386",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "2-?",
+          "credits": 3,
+          "class_type": "이론+실습 병행(해양 전공)",
+          "tools": [
+            "Python",
+            "통계분석 도구",
+            "해양관측 데이터"
+          ],
+          "course_overview": "해양학 심화(Ⅰ) 모듈: 물리학적 주요 개념과 해양 거동, 지구환경 변화 양상 등 해양학 심화 이론을 습득하여 전공 심화 학습 기반을 다지는 교과 구성(모듈 설명 기반).",
+          "learning_objectives": [
+            "해양 데이터의 생성 맥락과 특성 이해",
+            "해양 현상을 데이터 기반으로 분석",
+            "분석 결과를 보고서 형태로 정리"
+          ],
+          "key_topics": [
+            "해양학 심화(Ⅰ) 모듈: 물리학적 주요 개념과 해양 거동, 지구환경 변화 양상 등 해양학 심화 이론을 습득하여 전공 심화 학습 기반을 다지는 교과 구성(모듈 설명 기반)."
+          ],
+          "typical_outputs": [
+            "해양 데이터 분석 요약 리포트",
+            "현장·관측 데이터 기반 과제"
+          ],
+          "relatedJobIds": [
+            "BSMD-005",
+            "BSMD-010"
+          ]
+        },
+        {
+          "priority": 5,
+          "course_name": "화학해양학(I)",
+          "course_code": "MS2300423",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "2-?",
+          "credits": 3,
+          "class_type": "이론+실습 병행(해양 전공)",
+          "tools": [
+            "Python",
+            "통계분석 도구",
+            "해양관측 데이터"
+          ],
+          "course_overview": "해양학 심화(Ⅰ) 모듈: 해수 내 화학물질 분포 특성과 분포를 통한 해양의 거동 등 해양학 심화 이론을 습득하여 전공 심화 학습 기반을 다지는 교과 구성(모듈 설명 기반).",
+          "learning_objectives": [
+            "해양 데이터의 생성 맥락과 특성 이해",
+            "해양 현상을 데이터 기반으로 분석",
+            "분석 결과를 보고서 형태로 정리"
+          ],
+          "key_topics": [
+            "해양학 심화(Ⅰ) 모듈: 해수 내 화학물질 분포 특성과 분포를 통한 해양의 거동 등 해양학 심화 이론을 습득하여 전공 심화 학습 기반을 다지는 교과 구성(모듈 설명 기반)."
+          ],
+          "typical_outputs": [
+            "해양 데이터 분석 요약 리포트",
+            "현장·관측 데이터 기반 과제"
+          ],
+          "relatedJobIds": [
+            "BSMD-005"
+          ]
+        },
+        {
+          "priority": 6,
+          "course_name": "생물해양학(I)",
+          "course_code": "MS2300351",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "2-?",
+          "credits": 3,
+          "class_type": "이론+실습 병행(해양 전공)",
+          "tools": [
+            "Python",
+            "통계분석 도구",
+            "해양관측 데이터"
+          ],
+          "course_overview": "해양학 심화(Ⅰ) 모듈: 해양환경과 생물과의 상호작용 등 해양학 심화 이론을 습득하여 전공 심화 학습 기반을 다지는 교과 구성(모듈 설명 기반).",
+          "learning_objectives": [
+            "해양 데이터의 생성 맥락과 특성 이해",
+            "해양 현상을 데이터 기반으로 분석",
+            "분석 결과를 보고서 형태로 정리"
+          ],
+          "key_topics": [
+            "해양학 심화(Ⅰ) 모듈: 해양환경과 생물과의 상호작용 등 해양학 심화 이론을 습득하여 전공 심화 학습 기반을 다지는 교과 구성(모듈 설명 기반)."
+          ],
+          "typical_outputs": [
+            "해양 데이터 분석 요약 리포트",
+            "현장·관측 데이터 기반 과제"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 7,
+          "course_name": "지질해양학(I)",
+          "course_code": "MS3400082",
+          "category_in_curriculum": "전공필수",
+          "recommended_year_semester": "2-?",
+          "credits": 3,
+          "class_type": "이론+실습 병행(해양 전공)",
+          "tools": [
+            "Python",
+            "통계분석 도구",
+            "해양관측 데이터"
+          ],
+          "course_overview": "해양학 심화(Ⅰ) 모듈: 해양학 심화 이론을 습득해 전공 심화 학습 기반을 다지는 교과 구성에 포함됨(모듈 설명 기반).",
+          "learning_objectives": [
+            "해양 데이터의 생성 맥락과 특성 이해",
+            "해양 현상을 데이터 기반으로 분석",
+            "분석 결과를 보고서 형태로 정리"
+          ],
+          "key_topics": [
+            "해양학 심화(Ⅰ) 모듈: 해양학 심화 이론을 습득해 전공 심화 학습 기반을 다지는 교과 구성에 포함됨(모듈 설명 기반)."
+          ],
+          "typical_outputs": [
+            "해양 데이터 분석 요약 리포트",
+            "현장·관측 데이터 기반 과제"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 8,
+          "course_name": "해양환경과오염",
+          "course_code": "MS2300999",
+          "category_in_curriculum": "전공선택",
+          "recommended_year_semester": "4-?",
+          "credits": 3,
+          "class_type": "이론+실습 병행(해양 전공)",
+          "tools": [
+            "Python",
+            "통계분석 도구",
+            "해양관측 데이터"
+          ],
+          "course_overview": "화학해양학 심화 모듈: 기후변화에 따른 해양환경 변화 및 인간 활동에 따른 해양오염 문제 등 주제를 탐구하는 교과 구성(모듈 설명 기반). 해양실무 트랙 설명: 해양 관련 기관 취업 적응 및 해양환경기사 등 자격 취득에 도움이 되도록 설계된 트랙에 포함됨(트랙 설명 기반).",
+          "learning_objectives": [
+            "해양 데이터의 생성 맥락과 특성 이해",
+            "해양 현상을 데이터 기반으로 분석",
+            "분석 결과를 보고서 형태로 정리"
+          ],
+          "key_topics": [
+            "화학해양학 심화 모듈: 기후변화에 따른 해양환경 변화 및 인간 활동에 따른 해양오염 문제 등 주제를 탐구하는 교과 구성(모듈 설명 기반).",
+            "해양실무 트랙 설명: 해양 관련 기관 취업 적응 및 해양환경기사 등 자격 취득에 도움이 되도록 설계된 트랙에 포함됨(트랙 설명 기반)."
+          ],
+          "typical_outputs": [
+            "해양 데이터 분석 요약 리포트",
+            "현장·관측 데이터 기반 과제"
+          ],
+          "relatedJobIds": [
+            "BSMD-005"
+          ]
+        },
+        {
+          "priority": 9,
+          "course_name": "부유생물학및실험",
+          "course_code": "MS2300996",
+          "category_in_curriculum": "전공선택",
+          "recommended_year_semester": "3-?",
+          "credits": 3,
+          "class_type": "이론+실습 병행(해양 전공)",
+          "tools": [
+            "Python",
+            "통계분석 도구",
+            "해양관측 데이터"
+          ],
+          "course_overview": "생물해양학 심화 모듈: 해양생물 분류 및 해양생태계 구조/기능 이해를 기반으로 기후·환경변화, 생태계 보전 등 응용 지식을 습득하는 방향의 교과 구성(모듈 설명 기반).",
+          "learning_objectives": [
+            "해양 데이터의 생성 맥락과 특성 이해",
+            "해양 현상을 데이터 기반으로 분석",
+            "분석 결과를 보고서 형태로 정리"
+          ],
+          "key_topics": [
+            "생물해양학 심화 모듈: 해양생물 분류 및 해양생태계 구조/기능 이해를 기반으로 기후·환경변화, 생태계 보전 등 응용 지식을 습득하는 방향의 교과 구성(모듈 설명 기반)."
+          ],
+          "typical_outputs": [
+            "해양 데이터 분석 요약 리포트",
+            "현장·관측 데이터 기반 과제"
+          ],
+          "relatedJobIds": []
+        },
+        {
+          "priority": 10,
+          "course_name": "해양식물플랑크톤생태학",
+          "course_code": "MS3400045",
+          "category_in_curriculum": "전공선택",
+          "recommended_year_semester": "3-?",
+          "credits": 3,
+          "class_type": "이론+실습 병행(해양 전공)",
+          "tools": [
+            "Python",
+            "통계분석 도구",
+            "해양관측 데이터"
+          ],
+          "course_overview": "생물해양학 심화 모듈: 해양생태계 구조/기능 이해를 기반으로 기후·환경변화, 생태계 보전 등 응용 지식을 습득하는 방향의 교과 구성(모듈 설명 기반).",
+          "learning_objectives": [
+            "해양 데이터의 생성 맥락과 특성 이해",
+            "해양 현상을 데이터 기반으로 분석",
+            "분석 결과를 보고서 형태로 정리"
+          ],
+          "key_topics": [
+            "생물해양학 심화 모듈: 해양생태계 구조/기능 이해를 기반으로 기후·환경변화, 생태계 보전 등 응용 지식을 습득하는 방향의 교과 구성(모듈 설명 기반)."
+          ],
+          "typical_outputs": [
+            "해양 데이터 분석 요약 리포트",
+            "현장·관측 데이터 기반 과제"
+          ],
+          "relatedJobIds": []
+        }
+      ]
+    }
+  ]
+}

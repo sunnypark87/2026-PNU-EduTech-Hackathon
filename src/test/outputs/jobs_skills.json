@@ -1,0 +1,326 @@
+{
+  "BSMD-001": {
+    "skills": [
+      "Quantitative analysis fundamentals (regression, time series)",
+      "Data processing and visualization with Python (including ETL)",
+      "Documentation skills for structuring reports",
+      "Experience in analyzing AIS, operational logs, and sensor data",
+      "Experience in optimization (linear/integer) or simulation-based decision making"
+    ],
+    "evidence": [
+      {
+        "skill": "Quantitative analysis fundamentals (regression, time series)",
+        "quote": "회귀·시계열 등 정량 분석 기초"
+      },
+      {
+        "skill": "Data processing and visualization with Python (including ETL)",
+        "quote": "Python 기반 데이터 처리·시각화(ETL 포함)"
+      },
+      {
+        "skill": "Documentation skills for structuring reports",
+        "quote": "결과를 보고서 형태로 구조화하는 문서화 역량"
+      },
+      {
+        "skill": "Experience in analyzing AIS, operational logs, and sensor data",
+        "quote": "AIS/운항 로그·센서 데이터 분석 경험"
+      },
+      {
+        "skill": "Experience in optimization (linear/integer) or simulation-based decision making",
+        "quote": "최적화(선형/정수) 또는 시뮬레이션 기반 의사결정 경험"
+      }
+    ],
+    "notes": null
+  },
+  "BSMD-002": {
+    "skills": [
+      "Data mining and basic machine learning understanding",
+      "Database/SQL data extraction and pipeline construction",
+      "Communication of analytical results to non-experts",
+      "Experience in manufacturing, shipbuilding, or logistics domain projects",
+      "Experience with deep learning-based vision inspection or time series anomaly detection"
+    ],
+    "evidence": [
+      {
+        "skill": "Data mining and basic machine learning understanding",
+        "quote": "이상징후 탐지 모델 개발"
+      },
+      {
+        "skill": "Database/SQL data extraction and pipeline construction",
+        "quote": "DB/SQL 기반 데이터 추출 및 파이프라인 구성"
+      },
+      {
+        "skill": "Communication of analytical results to non-experts",
+        "quote": "분석 결과를 비전공자에게 설명할 수 있는 커뮤니케이션"
+      },
+      {
+        "skill": "Experience in manufacturing, shipbuilding, or logistics domain projects",
+        "quote": "제조/조선/물류 도메인 프로젝트 경험"
+      },
+      {
+        "skill": "Experience with deep learning-based vision inspection or time series anomaly detection",
+        "quote": "딥러닝 기반 비전 검사 또는 시계열 이상탐지 경험"
+      }
+    ],
+    "notes": null
+  },
+  "BSMD-003": {
+    "skills": [
+      "Time series data preprocessing",
+      "Anomaly detection modeling",
+      "Remaining useful life (RUL) prediction",
+      "Alarm criteria design",
+      "Data quality management",
+      "Python modeling and visualization",
+      "Deep learning experience",
+      "Statistical anomaly detection",
+      "Scalable data processing optimization"
+    ],
+    "evidence": [
+      {
+        "skill": "Time series data preprocessing",
+        "quote": "엔진/추진/보조기기 센서 시계열 데이터 전처리·특성 추출"
+      },
+      {
+        "skill": "Anomaly detection modeling",
+        "quote": "고장 징후 탐지·잔여수명(RUL) 예측 모델 실험 및 성능 평가"
+      },
+      {
+        "skill": "Alarm criteria design",
+        "quote": "알람 기준/리포트 체계 설계 및 현장 피드백 반영"
+      },
+      {
+        "skill": "Data quality management",
+        "quote": "데이터 품질 관리(결측·이상치·드리프트) 기본 이해"
+      },
+      {
+        "skill": "Python modeling and visualization",
+        "quote": "Python 기반 모델링/시각화 경험"
+      },
+      {
+        "skill": "Deep learning experience",
+        "quote": "딥러닝(Transformer 등) 또는 통계적 이상탐지 경험"
+      },
+      {
+        "skill": "Scalable data processing optimization",
+        "quote": "자료구조/알고리즘 기반 대용량 처리 최적화 경험"
+      }
+    ],
+    "notes": null
+  },
+  "BSMD-004": {
+    "skills": [
+      "Optimization and simulation modeling",
+      "SQL data extraction and analysis",
+      "Problem definition in operational settings",
+      "Logistics and transportation project experience",
+      "Dashboard tool experience (e.g., Tableau, Power BI)"
+    ],
+    "evidence": [
+      {
+        "skill": "Optimization and simulation modeling",
+        "quote": "Develop optimization models including simulations."
+      },
+      {
+        "skill": "SQL data extraction and analysis",
+        "quote": "Understanding of SQL-based data extraction and analysis pipelines."
+      },
+      {
+        "skill": "Problem definition in operational settings",
+        "quote": "Translating operational issues into mathematical models."
+      },
+      {
+        "skill": "Logistics and transportation project experience",
+        "quote": "Experience in logistics or scheduling projects preferred."
+      },
+      {
+        "skill": "Dashboard tool experience (e.g., Tableau, Power BI)",
+        "quote": "Experience with dashboard tools such as Tableau or Power BI."
+      }
+    ],
+    "notes": null
+  },
+  "BSMD-005": {
+    "skills": [
+      "Basic statistical understanding",
+      "Regression analysis",
+      "Multivariate analysis",
+      "Python data processing",
+      "Data visualization",
+      "Domain knowledge in marine environment",
+      "Data analysis conceptual integration",
+      "Experience in marine/environment data analysis projects",
+      "Experience in data quality handling",
+      "Experience in measurement uncertainty handling"
+    ],
+    "evidence": [
+      {
+        "skill": "Basic statistical understanding",
+        "quote": "기초 통계/회귀 및 다변량 분석 이해"
+      },
+      {
+        "skill": "Python data processing",
+        "quote": "Python 기반 데이터 처리·시각화"
+      },
+      {
+        "skill": "Domain knowledge in marine environment",
+        "quote": "도메인 지식(해양환경)과 데이터 분석을 연결하는 사고"
+      }
+    ],
+    "notes": null
+  },
+  "BSMD-006": {
+    "skills": [
+      "Deep learning model development",
+      "Mathematical optimization and probability",
+      "Data preprocessing using Python",
+      "Model evaluation and validation",
+      "Reproducible analysis processes",
+      "Experience with time series data",
+      "Experience with spatial data processing",
+      "Utilization of GPU environments in ML",
+      "Management of ML experiments"
+    ],
+    "evidence": [
+      {
+        "skill": "Deep learning model development",
+        "quote": "딥러닝 기반 분류·예측 모델 개발(예: 해양현상 탐지)"
+      },
+      {
+        "skill": "Data preprocessing using Python",
+        "quote": "Python 기반 데이터 전처리/학습/평가"
+      },
+      {
+        "skill": "Reproducible analysis processes",
+        "quote": "실험 기록 및 재현 가능한 분석 프로세스"
+      }
+    ],
+    "notes": null
+  },
+  "BSMD-007": {
+    "skills": [
+      "Time series analysis",
+      "Multivariate data analysis",
+      "Database management",
+      "SQL for large-scale log processing",
+      "Data visualization skills",
+      "Anomaly detection techniques",
+      "Clustering methodologies",
+      "Classification techniques",
+      "Domain knowledge in maritime transport",
+      "Experience in port and logistics projects"
+    ],
+    "evidence": [
+      {
+        "skill": "Time series analysis",
+        "quote": "기초가 필요한 시계열 데이터 분석."
+      },
+      {
+        "skill": "Database management",
+        "quote": "DB/SQL 기반 대용량 로그 처리."
+      },
+      {
+        "skill": "Data visualization skills",
+        "quote": "분석 결과를 이해하기 쉬운 시각화로 전달."
+      },
+      {
+        "skill": "Anomaly detection techniques",
+        "quote": "이상탐지/군집/분류 등 데이터마이닝 응용."
+      },
+      {
+        "skill": "Domain knowledge in maritime transport",
+        "quote": "해상교통·항만·물류 도메인 관심."
+      }
+    ],
+    "notes": null
+  },
+  "BSMD-008": {
+    "skills": [
+      "Experimental design support",
+      "Experimental data analysis",
+      "Technical documentation writing",
+      "Statistical understanding",
+      "Data analysis tool proficiency",
+      "Reproducible analysis",
+      "Data summarization skills"
+    ],
+    "evidence": [
+      {
+        "skill": "Experimental data analysis",
+        "quote": "실험 데이터 분석(추정·검정·회귀/분산분석) 및 결론 도출"
+      },
+      {
+        "skill": "Technical documentation writing",
+        "quote": "기술 문서/보고서 작성 및 대외 발표 자료 정리"
+      },
+      {
+        "skill": "Statistical understanding",
+        "quote": "확률·통계/추정·검정/실험설계 이해"
+      },
+      {
+        "skill": "Data analysis tool proficiency",
+        "quote": "분석 도구(SAS/R/Python 중 1개 이상) 활용"
+      },
+      {
+        "skill": "Reproducible analysis",
+        "quote": "재현 가능한 분석과 결과 요약 능력"
+      }
+    ],
+    "notes": null
+  },
+  "BSMD-009": {
+    "skills": [
+      "simulation modeling",
+      "decision support optimization",
+      "data processing understanding",
+      "results documentation structuring",
+      "experience with optimization libraries",
+      "project experience in shipbuilding",
+      "project experience in logistics",
+      "project experience in navigation"
+    ],
+    "evidence": [
+      {
+        "skill": "simulation modeling",
+        "quote": "조선 공정/운항 시나리오 모델링 및 시뮬레이션 실험 설계"
+      },
+      {
+        "skill": "decision support optimization",
+        "quote": "시뮬레이션 결과 기반 의사결정(최적화/정책) 지원"
+      },
+      {
+        "skill": "data processing understanding",
+        "quote": "대용량 데이터 처리(자료구조/DB) 이해"
+      },
+      {
+        "skill": "results documentation structuring",
+        "quote": "분석 결과를 의사결정 문서로 구조화"
+      }
+    ],
+    "notes": null
+  },
+  "BSMD-010": {
+    "skills": [
+      "Field data collection",
+      "Data management using SQL",
+      "Data analysis using Python",
+      "Report and chart preparation",
+      "Metadata management",
+      "Quality control and validation"
+    ],
+    "evidence": [
+      {
+        "skill": "Field data collection",
+        "quote": "해양조사(현장 관측) 데이터 수집·메타데이터 관리·품질 점검"
+      },
+      {
+        "skill": "Data management using SQL",
+        "quote": "SQL 기반 데이터 관리와 Python 기반 분석"
+      },
+      {
+        "skill": "Report and chart preparation",
+        "quote": "결과를 명확히 보고서·도표로 정리"
+      }
+    ],
+    "notes": null
+  }
+}

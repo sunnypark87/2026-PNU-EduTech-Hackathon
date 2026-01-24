@@ -1,0 +1,14 @@
+{
+  "embed_model": "text-embedding-3-small",
+  "cache_path": "cache/embedding_cache.text-embedding-3-small.json",
+  "diagnostics": {
+    "status": "ok",
+    "self_sim_min": 1.0,
+    "self_sim_max": 1.0000001192092896,
+    "pair_sim_min": 0.11565141379833221,
+    "pair_sim_max": 0.5384722948074341,
+    "pair_sim_avg": 0.2941514980792999,
+    "sample_count": 30,
+    "total_count": 242
+  }
+}

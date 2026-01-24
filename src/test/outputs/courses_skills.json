@@ -1,0 +1,1074 @@
+{
+  "산업공학과::IE1600795::데이터구조및알고리즘": {
+    "skills": [
+      "Analyze algorithm efficiency",
+      "Implement core data structures",
+      "Manage large datasets",
+      "Conduct data modeling",
+      "Summarize analysis results"
+    ],
+    "evidence": [
+      {
+        "skill": "Analyze algorithm efficiency",
+        "quote": "Understand and analyze algorithm efficiency."
+      },
+      {
+        "skill": "Implement core data structures",
+        "quote": "Gain foundational data structure and algorithm skills."
+      },
+      {
+        "skill": "Manage large datasets",
+        "quote": "Acquire data structure/algorithm base for large marine and shipbuilding data."
+      },
+      {
+        "skill": "Conduct data modeling",
+        "quote": "Engage in data modeling and interpretation."
+      },
+      {
+        "skill": "Summarize analysis results",
+        "quote": "Produce summaries of analysis outcomes."
+      }
+    ],
+    "notes": null
+  },
+  "산업공학과::IE2400210::공학통계(I)": {
+    "skills": [
+      "Analyze data variability",
+      "Quantitatively interpret noise in data",
+      "Model uncertainty using probabilistic models",
+      "Employ statistical theory for data analysis",
+      "Perform estimation and hypothesis testing",
+      "Summarize data modeling results"
+    ],
+    "evidence": [
+      {
+        "skill": "Analyze data variability",
+        "quote": "센서/운항/공정 데이터의 변동성·노이즈를 정량적으로 해석"
+      },
+      {
+        "skill": "Model uncertainty using probabilistic models",
+        "quote": "불확실성을 확률모델로 다루는 확률·통계의 기초를 학습합니다."
+      },
+      {
+        "skill": "Employ statistical theory for data analysis",
+        "quote": "추정·검정·모델링 등 데이터 분석의 기반 수학 확보"
+      },
+      {
+        "skill": "Summarize data modeling results",
+        "quote": "데이터 모델링·해석 결과 요약 자료"
+      }
+    ],
+    "notes": null
+  },
+  "산업공학과::IE3400078::데이터베이스": {
+    "skills": [
+      "Store and retrieve maritime and shipbuilding data",
+      "Model and analyze sensor and business data",
+      "Design ETL processes and data pipelines",
+      "Implement database systems using Python and SQL",
+      "Analyze data using R"
+    ],
+    "evidence": [
+      {
+        "skill": "Store and retrieve maritime and shipbuilding data",
+        "quote": "Learners will gain the capability to work with logs and sensor data."
+      },
+      {
+        "skill": "Model and analyze sensor and business data",
+        "quote": "Focus on storing, retrieving, and modeling data effectively."
+      },
+      {
+        "skill": "Design ETL processes and data pipelines",
+        "quote": "Gain competencies in designing data flow and transformation."
+      },
+      {
+        "skill": "Implement database systems using Python and SQL",
+        "quote": "Practical implementation skills through setup and project work."
+      },
+      {
+        "skill": "Analyze data using R",
+        "quote": "Develop strong analysis skills by using various tools."
+      }
+    ],
+    "notes": null
+  },
+  "산업공학과::IE2400223::데이터마이닝": {
+    "skills": [
+      "Identify anomalies in operational data",
+      "Discover patterns in maintenance and quality",
+      "Develop recommendation systems for parts and maintenance",
+      "Select and interpret practical algorithms for data analysis",
+      "Model and summarize data analysis results"
+    ],
+    "evidence": [
+      {
+        "skill": "Identify anomalies in operational data",
+        "quote": "이상탐지(설비/운항) 등 적용 가능"
+      },
+      {
+        "skill": "Discover patterns in maintenance and quality",
+        "quote": "패턴발견(정비/품질) 등 적용 가능"
+      },
+      {
+        "skill": "Develop recommendation systems for parts and maintenance",
+        "quote": "추천(부품/정비) 등 적용 가능"
+      },
+      {
+        "skill": "Select and interpret practical algorithms for data analysis",
+        "quote": "실무형 알고리즘 선택·해석 능력 강화"
+      },
+      {
+        "skill": "Model and summarize data analysis results",
+        "quote": "데이터 모델링·해석 결과 요약 자료"
+      }
+    ],
+    "notes": null
+  },
+  "산업공학과::IE2002712::회귀분석": {
+    "skills": [
+      "Implement regression analysis for continuous value prediction",
+      "Evaluate and compare model performance",
+      "Utilize machine learning and deep learning techniques",
+      "Conduct data modeling and interpretation",
+      "Create analytical reports and summaries"
+    ],
+    "evidence": [
+      {
+        "skill": "Implement regression analysis for continuous value prediction",
+        "quote": "Directly apply to tasks such as fuel consumption and operational efficiency."
+      },
+      {
+        "skill": "Evaluate and compare model performance",
+        "quote": "Develop foundational skills in interpreting and comparing models."
+      }
+    ],
+    "notes": null
+  },
+  "산업공학과::IE3600658::머신러닝수학": {
+    "skills": [
+      "Understand modeling principles in optimization and probability",
+      "Analyze data using mathematical foundations of machine learning",
+      "Apply mathematical concepts to deep learning and big data",
+      "Implement projects using machine learning mathematics"
+    ],
+    "evidence": [
+      {
+        "skill": "Understand modeling principles in optimization and probability",
+        "quote": "모델링(최적화/확률) 이해 기반 강화 → 데이터 분석 엔지니어 핵심 역량"
+      },
+      {
+        "skill": "Analyze data using mathematical foundations of machine learning",
+        "quote": "머신러닝·딥러닝·빅데이터 분석에 핵심적으로 쓰이는 수학을 다루고"
+      },
+      {
+        "skill": "Apply mathematical concepts to deep learning and big data",
+        "quote": "수학 개념이 ML/DL에 어떻게 쓰이는지 프로젝트로 실습합니다."
+      },
+      {
+        "skill": "Implement projects using machine learning mathematics",
+        "quote": "과목 기반 미니프로젝트 또는 분석 리포트"
+      }
+    ],
+    "notes": null
+  },
+  "산업공학과::IE2001445::딥러닝": {
+    "skills": [
+      "Analyze time series data using deep neural networks",
+      "Apply deep learning models for image defect detection",
+      "Understand and implement Transformer models",
+      "Generate data using advanced neural networks",
+      "Summarize data modeling and interpretation results"
+    ],
+    "evidence": [
+      {
+        "skill": "Analyze time series data using deep neural networks",
+        "quote": "선박/해양 센서 시계열 분석, 영상 기반 검사(결함 탐지) 등에 적용"
+      },
+      {
+        "skill": "Apply deep learning models for image defect detection",
+        "quote": "영상 기반 검사(결함 탐지) 등에 적용"
+      },
+      {
+        "skill": "Understand and implement Transformer models",
+        "quote": "현업에서 요구되는 최신 모델 계열(Transformer 등) 이해"
+      },
+      {
+        "skill": "Generate data using advanced neural networks",
+        "quote": "Attention/Transformer 등 시퀀스 기반 모델과 데이터 생성 모델 학습을 포함합니다."
+      },
+      {
+        "skill": "Summarize data modeling and interpretation results",
+        "quote": "데이터 모델링·해석 결과 요약 자료"
+      }
+    ],
+    "notes": null
+  },
+  "산업공학과::IE2002715::시뮬레이션최적화": {
+    "skills": [
+      "Apply simulation methodologies to decision-making scenarios",
+      "Evaluate complex processes through simulation analysis",
+      "Model and analyze logistics in the shipbuilding and maritime industries",
+      "Conduct effective data modeling and interpretation",
+      "Utilize programming tools for simulation analysis"
+    ],
+    "evidence": [
+      {
+        "skill": "Apply simulation methodologies to decision-making scenarios",
+        "quote": "조선 공정/물류/운항 시나리오를 '모의실험→의사결정'으로 평가"
+      },
+      {
+        "skill": "Utilize programming tools for simulation analysis",
+        "quote": "Python, R, SQL"
+      }
+    ],
+    "notes": null
+  },
+  "산업공학과::IE2002714::최적화모형과응용": {
+    "skills": [
+      "Model decision problems",
+      "Optimize scheduling and resource allocation",
+      "Analyze and interpret optimization results",
+      "Convert analysis into actionable decisions",
+      "Utilize Python for optimization",
+      "Utilize R for data analysis",
+      "Utilize SQL for data manipulation"
+    ],
+    "evidence": [
+      {
+        "skill": "Model decision problems",
+        "quote": "의사결정 문제를 모델링하고 최적화하는 다양한 최적화 기법을 학습합니다."
+      },
+      {
+        "skill": "Optimize scheduling and resource allocation",
+        "quote": "배차/스케줄링/자원배분(도크, 인력, 장비) 등 조선·물류 최적화에 연결"
+      },
+      {
+        "skill": "Convert analysis into actionable decisions",
+        "quote": "분석 결과를 '의사결정'으로 전환하는 능력 강화"
+      }
+    ],
+    "notes": null
+  },
+  "산업공학과::IE3500735::스마트제조": {
+    "skills": [
+      "Analyze data in manufacturing and logistics",
+      "Combine domain knowledge with data analytics",
+      "Apply data science to solve manufacturing challenges",
+      "Interpret results from data modeling",
+      "Develop mini-projects and analytical reports"
+    ],
+    "evidence": [
+      {
+        "skill": "Analyze data in manufacturing and logistics",
+        "quote": "제조/물류 분야에서 데이터사이언스 적용 사례를 살펴보고"
+      },
+      {
+        "skill": "Combine domain knowledge with data analytics",
+        "quote": "도메인 지식+데이터 분석 결합 역량 강화"
+      },
+      {
+        "skill": "Apply data science to solve manufacturing challenges",
+        "quote": "산업 이해와 실제 데이터 적용을 통해 제조·물류 문제 해결 역량을 배양합니다."
+      },
+      {
+        "skill": "Interpret results from data modeling",
+        "quote": "데이터 모델링·해석 결과 요약 자료"
+      },
+      {
+        "skill": "Develop mini-projects and analytical reports",
+        "quote": "과목 기반 미니프로젝트 또는 분석 리포트"
+      }
+    ],
+    "notes": null
+  },
+  "조선해양공학과::NO1600789::파이썬프로그래밍": {
+    "skills": [
+      "Perform data preprocessing with Python",
+      "Extract data insights through basic statistics and visualization",
+      "Organize analysis results in reproducible code and notebook format"
+    ],
+    "evidence": [
+      {
+        "skill": "Perform data preprocessing with Python",
+        "quote": "파이썬 기반 데이터 전처리(결측/형변환/정규화 등) 수행"
+      },
+      {
+        "skill": "Extract data insights through basic statistics and visualization",
+        "quote": "기초 통계·시각화를 통해 데이터 인사이트 도출"
+      },
+      {
+        "skill": "Organize analysis results in reproducible code and notebook format",
+        "quote": "재현 가능한 코드/노트북 형태로 분석 결과 정리"
+      }
+    ],
+    "notes": null
+  },
+  "조선해양공학과::NO1100033::동역학": {
+    "skills": [
+      "Formulate and analyze motion equations",
+      "Understand relationships in system behavior (acceleration, velocity, displacement)",
+      "Physically explain marine and ship data (motion/load)"
+    ],
+    "evidence": [
+      {
+        "skill": "Formulate and analyze motion equations",
+        "quote": "운동 방정식을 세우고 해석할 수 있음"
+      },
+      {
+        "skill": "Understand relationships in system behavior (acceleration, velocity, displacement)",
+        "quote": "시스템 거동(가속도/속도/변위)의 관계 이해"
+      },
+      {
+        "skill": "Physically explain marine and ship data (motion/load)",
+        "quote": "해양·조선 데이터(운동/하중)의 의미를 물리적으로 설명"
+      }
+    ],
+    "notes": null
+  },
+  "조선해양공학과::NO2001004::스마트제어공학": {
+    "skills": [
+      "Perform system modeling using transfer functions and state space",
+      "Design and evaluate feedback controllers",
+      "Analyze stability and response characteristics from simulation data",
+      "Utilize MATLAB and Simulink for system simulation",
+      "Generate control design reports"
+    ],
+    "evidence": [
+      {
+        "skill": "Perform system modeling using transfer functions and state space",
+        "quote": "시스템(전달함수/상태공간) 모델링 수행"
+      },
+      {
+        "skill": "Design and evaluate feedback controllers",
+        "quote": "피드백 제어기 설계 및 성능 평가"
+      },
+      {
+        "skill": "Analyze stability and response characteristics from simulation data",
+        "quote": "시뮬레이션 결과 데이터로 안정성/응답특성 해석"
+      }
+    ],
+    "notes": null
+  },
+  "조선해양공학과::NO2001245::조선해양캡스톤디자인(I)": {
+    "skills": [
+      "Define and solve marine engineering problems",
+      "Execute project cycles from requirements to validation",
+      "Perform data collection, refinement, and analysis for decision-making",
+      "Structure collaborative outputs into documents and presentations",
+      "Manage project timelines and deliverables",
+      "Utilize Python for data analysis",
+      "Use MATLAB for simulation tasks",
+      "Employ collaboration tools for documentation and version control"
+    ],
+    "evidence": [
+      {
+        "skill": "Define and solve marine engineering problems",
+        "quote": "Integrate practical problem definition and solutions in team projects."
+      },
+      {
+        "skill": "Execute project cycles from requirements to validation",
+        "quote": "Conduct the project cycle from problem definition to verification."
+      },
+      {
+        "skill": "Perform data collection, refinement, and analysis for decision-making",
+        "quote": "Reflect data analysis in design decision-making."
+      },
+      {
+        "skill": "Structure collaborative outputs into documents and presentations",
+        "quote": "Organize team outputs in structured formats."
+      },
+      {
+        "skill": "Manage project timelines and deliverables",
+        "quote": "Implement project management principles throughout the course."
+      },
+      {
+        "skill": "Utilize Python for data analysis",
+        "quote": "Apply Python to analyze datasets as part of project work."
+      },
+      {
+        "skill": "Use MATLAB for simulation tasks",
+        "quote": "Conduct simulations using MATLAB to validate designs."
+      },
+      {
+        "skill": "Employ collaboration tools for documentation and version control",
+        "quote": "Leverage collaboration tools effectively for project documentation."
+      }
+    ],
+    "notes": null
+  },
+  "조선해양공학과::NO2100500::공통기초실험": {
+    "skills": [
+      "Use basic measurement equipment",
+      "Record and organize experimental data",
+      "Understand error and uncertainty concepts",
+      "Analyze experimental data",
+      "Write detailed laboratory reports"
+    ],
+    "evidence": [
+      {
+        "skill": "Use basic measurement equipment",
+        "quote": "Learners will gain the ability to use basic measurement equipment effectively."
+      },
+      {
+        "skill": "Record and organize experimental data",
+        "quote": "The course strengthens the capability to record and organize data efficiently."
+      },
+      {
+        "skill": "Understand error and uncertainty concepts",
+        "quote": "Students will comprehend the concepts of error and uncertainty."
+      },
+      {
+        "skill": "Analyze experimental data",
+        "quote": "Learners will develop skills to analyze experimental data properly."
+      },
+      {
+        "skill": "Write detailed laboratory reports",
+        "quote": "The ability to write detailed reports is a key outcome of this course."
+      }
+    ],
+    "notes": null
+  },
+  "조선해양공학과::NO2500040::선박기본설계": {
+    "skills": [
+      "Understand basic design parameters and constraints",
+      "Evaluate and compare design options",
+      "Interpret design outputs and related data"
+    ],
+    "evidence": [
+      {
+        "skill": "Understand basic design parameters and constraints",
+        "quote": "Learners will grasp the structure of design data (dimensions/performance/constraints)"
+      },
+      {
+        "skill": "Evaluate and compare design options",
+        "quote": "Acquire the logic for comparing and assessing design alternatives"
+      },
+      {
+        "skill": "Interpret design outputs and related data",
+        "quote": "Recognize the significance of design deliverables and associated data"
+      }
+    ],
+    "notes": null
+  },
+  "조선해양공학과::NO2500091::구조실험": {
+    "skills": [
+      "Analyze load-deformation failure behavior",
+      "Interpret measurement data from experiments",
+      "Design experiments for structural testing",
+      "Manage data quality including noise and outliers",
+      "Compare and validate theoretical models against experimental results"
+    ],
+    "evidence": [
+      {
+        "skill": "Analyze load-deformation failure behavior",
+        "quote": "구조물의 하중–변형–파괴 거동을 실험으로 관찰하고"
+      },
+      {
+        "skill": "Interpret measurement data from experiments",
+        "quote": "하중/변형 측정 데이터 해석"
+      },
+      {
+        "skill": "Design experiments for structural testing",
+        "quote": "실험 설계 및 데이터 품질(노이즈/이상치) 관리"
+      },
+      {
+        "skill": "Manage data quality including noise and outliers",
+        "quote": "실험 설계 및 데이터 품질(노이즈/이상치) 관리"
+      },
+      {
+        "skill": "Compare and validate theoretical models against experimental results",
+        "quote": "이론 모델과 실험 결과 비교·검증"
+      }
+    ],
+    "notes": null
+  },
+  "조선해양공학과::NO2500103::운동해양실험": {
+    "skills": [
+      "Measure and organize marine fluid and motion data",
+      "Interpret results based on varying experimental conditions",
+      "Analyze data considering signal-to-noise ratios",
+      "Collect and preprocess experimental data",
+      "Interpret experimental results and variations",
+      "Produce detailed experimental reports",
+      "Generate time-domain data and graphs",
+      "Conduct comparative analysis based on conditions"
+    ],
+    "evidence": [
+      {
+        "skill": "Measure and organize marine fluid and motion data",
+        "quote": "해양 운동·유체 관련 데이터 측정/정리"
+      },
+      {
+        "skill": "Interpret results based on varying experimental conditions",
+        "quote": "실험 조건 변화에 따른 결과 해석"
+      },
+      {
+        "skill": "Analyze data considering signal-to-noise ratios",
+        "quote": "신호/노이즈를 고려한 데이터 분석"
+      }
+    ],
+    "notes": null
+  },
+  "조선해양공학과::NO2500110::진동음향실험": {
+    "skills": [
+      "Measure and preprocess vibration and acoustic data",
+      "Perform frequency analysis and spectrum analysis",
+      "Interpret anomalies and resonances from data",
+      "Manage sensor data quality",
+      "Utilize FFT and spectral analysis tools",
+      "Extract and summarize feature values from data"
+    ],
+    "evidence": [
+      {
+        "skill": "Measure and preprocess vibration and acoustic data",
+        "quote": "Strengthen capabilities in sensor-based time series data processing."
+      },
+      {
+        "skill": "Perform frequency analysis and spectrum analysis",
+        "quote": "Conduct frequency analysis through measurements."
+      },
+      {
+        "skill": "Interpret anomalies and resonances from data",
+        "quote": "Analyze characteristics like anomalies and resonances."
+      },
+      {
+        "skill": "Manage sensor data quality",
+        "quote": "Ensure quality management of sensor data."
+      },
+      {
+        "skill": "Utilize FFT and spectral analysis tools",
+        "quote": "Engage with FFT/spectral analysis techniques."
+      },
+      {
+        "skill": "Extract and summarize feature values from data",
+        "quote": "Generate reports and summarize feature extraction."
+      }
+    ],
+    "notes": null
+  },
+  "조선해양공학과::NO2500113::해양구조물설계": {
+    "skills": [
+      "Apply design requirements and standards",
+      "Analyze the impact of design variable changes on performance",
+      "Document and explain design results"
+    ],
+    "evidence": [
+      {
+        "skill": "Apply design requirements and standards",
+        "quote": "Learners will understand the design principles and review procedures."
+      },
+      {
+        "skill": "Analyze the impact of design variable changes on performance",
+        "quote": "Students will learn to understand the relationship between design variables and performance/safety criteria."
+      },
+      {
+        "skill": "Document and explain design results",
+        "quote": "The course includes activities focused on document preparation and explanation of design outcomes."
+      }
+    ],
+    "notes": null
+  },
+  "통계학과::ST2200456::통계적확률론(I)": {
+    "skills": [
+      "Understand probability axioms and measure theory",
+      "Interpret relationships between events and random variables using conditional probability, independence, and Bayes' theorem",
+      "Explain data generation mechanisms through properties and moments of discrete probability distributions"
+    ],
+    "evidence": [
+      {
+        "skill": "Understand probability axioms and measure theory",
+        "quote": "확률의 공리/확률측도 관점에서 확률을 엄밀히 이해"
+      },
+      {
+        "skill": "Interpret relationships between events and random variables using conditional probability, independence, and Bayes' theorem",
+        "quote": "조건부확률·독립성·베이즈 정리를 활용해 사건/확률변수 관계를 해석"
+      },
+      {
+        "skill": "Explain data generation mechanisms through properties and moments of discrete probability distributions",
+        "quote": "이산형 확률분포의 성질과 적률을 통해 데이터 생성 메커니즘을 설명"
+      }
+    ],
+    "notes": null
+  },
+  "통계학과::ST2200419::수리통계학(I)": {
+    "skills": [
+      "Understand probability distributions",
+      "Evaluate properties of estimators",
+      "Apply the central limit theorem",
+      "Utilize concepts of convergence in sequences of random variables",
+      "Analyze independence in random variables"
+    ],
+    "evidence": [
+      {
+        "skill": "Understand probability distributions",
+        "quote": "습득확률분포/독립성/변환분포 등 추론의 기본 언어"
+      },
+      {
+        "skill": "Evaluate properties of estimators",
+        "quote": "불편성·일치성 개념을 통해 추정량의 성질을 평가"
+      },
+      {
+        "skill": "Apply the central limit theorem",
+        "quote": "중심극한정리를 활용해 점근적 추론을 이해"
+      },
+      {
+        "skill": "Utilize concepts of convergence in sequences of random variables",
+        "quote": "확률변수열의 수렴과 중심극한정리를 활용해 점근적 추론을 이해"
+      },
+      {
+        "skill": "Analyze independence in random variables",
+        "quote": "확률분포/독립성/변환분포 등 추론의 기본 언어 습득"
+      }
+    ],
+    "notes": null
+  },
+  "통계학과::ST2200422::회귀분석(I)": {
+    "skills": [
+      "Perform hypothesis testing for linear regression models",
+      "Estimate coefficients for simple and multiple linear regression",
+      "Understand key assumptions of linear models",
+      "Conduct residual and influence point analysis",
+      "Diagnose model fit and identify risk factors"
+    ],
+    "evidence": [
+      {
+        "skill": "Perform hypothesis testing for linear regression models",
+        "quote": "단순/중선형회귀의 추정과 가설검정을 수행"
+      },
+      {
+        "skill": "Estimate coefficients for simple and multiple linear regression",
+        "quote": "단순선형회귀모형(추정, 가우스–마르코프 정리, 잔차분석)"
+      },
+      {
+        "skill": "Understand key assumptions of linear models",
+        "quote": "가우스–마르코프 정리 등 선형모형의 핵심 가정을 이해"
+      },
+      {
+        "skill": "Conduct residual and influence point analysis",
+        "quote": "잔차·영향점 분석으로 모형 적합성과 위험 요인을 진단"
+      },
+      {
+        "skill": "Diagnose model fit and identify risk factors",
+        "quote": "모형 진단 및 영향력 관측치 탐색"
+      }
+    ],
+    "notes": null
+  },
+  "통계학과::ST3600011::실험계획법": {
+    "skills": [
+      "Design efficient experiments",
+      "Analyze experimental data",
+      "Select appropriate experimental designs",
+      "Understand estimation and testing procedures",
+      "Conduct response analysis using regression and correlation"
+    ],
+    "evidence": [
+      {
+        "skill": "Design efficient experiments",
+        "quote": "효율적인 실험을 설계하고(배치/요인설계 등) 실험자료를 분석하는 방법을 다루며."
+      },
+      {
+        "skill": "Analyze experimental data",
+        "quote": "실험자료를 분석하는 방법을 다루며."
+      },
+      {
+        "skill": "Select appropriate experimental designs",
+        "quote": "실험 목적에 맞는 설계(일원/이원/다원/분할 등)를 선택."
+      },
+      {
+        "skill": "Understand estimation and testing procedures",
+        "quote": "결측·혼합모형 상황에서의 추정/검정 절차 이해."
+      },
+      {
+        "skill": "Conduct response analysis using regression and correlation",
+        "quote": "회귀·상관·직교다항식 등을 활용한 반응 분석."
+      }
+    ],
+    "notes": null
+  },
+  "통계학과::ST3600012::시계열분석": {
+    "skills": [
+      "Analyze time-dependent data structures",
+      "Fit ARMA/ARIMA and seasonal ARIMA models",
+      "Perform forecasts using time series techniques",
+      "Assess prediction reliability through model selection and diagnostics"
+    ],
+    "evidence": [
+      {
+        "skill": "Analyze time-dependent data structures",
+        "quote": "Understand data structures from the perspective of stationarity."
+      },
+      {
+        "skill": "Fit ARMA/ARIMA and seasonal ARIMA models",
+        "quote": "Fit ARMA/ARIMA/seasonal ARIMA models and perform forecasts."
+      },
+      {
+        "skill": "Assess prediction reliability through model selection and diagnostics",
+        "quote": "Evaluate forecast reliability through model selection and diagnostics."
+      }
+    ],
+    "notes": null
+  },
+  "통계학과::ST2700517::다변량통계학(I)": {
+    "skills": [
+      "Interpret multivariate data using matrices",
+      "Conduct multivariate normality tests",
+      "Apply dimensionality reduction techniques (PCA)",
+      "Perform factor analysis for structure explanation",
+      "Implement discriminant and cluster analysis"
+    ],
+    "evidence": [
+      {
+        "skill": "Interpret multivariate data using matrices",
+        "quote": "다변량 자료를 행렬로 표현하고 요약통계를 해석"
+      },
+      {
+        "skill": "Conduct multivariate normality tests",
+        "quote": "다변량 정규성 및 관련 성질을 이해하고 검정"
+      },
+      {
+        "skill": "Apply dimensionality reduction techniques (PCA)",
+        "quote": "PCA/요인/판별/군집 등 대표 기법을 적용해 구조를 설명"
+      }
+    ],
+    "notes": null
+  },
+  "통계학과::ST2400969::데이터마이닝입문": {
+    "skills": [
+      "Understand data preprocessing procedures",
+      "Identify predictive modeling concepts",
+      "Extract structures and rules through clustering and association analysis"
+    ],
+    "evidence": [
+      {
+        "skill": "Understand data preprocessing procedures",
+        "quote": "데이터 전처리(탐색/변환) 절차를 이해"
+      },
+      {
+        "skill": "Identify predictive modeling concepts",
+        "quote": "의사결정나무·신경망 등 예측모형을 개념적으로 파악"
+      },
+      {
+        "skill": "Extract structures and rules through clustering and association analysis",
+        "quote": "군집·연관성 분석으로 구조/규칙을 도출"
+      }
+    ],
+    "notes": null
+  },
+  "통계학과::ST1600769::통계프로그래밍언어(II)": {
+    "skills": [
+      "Perform basic statistical analysis using SAS",
+      "Summarize and organize analysis results in tables",
+      "Construct basic analysis pipelines including data import, cleaning, analysis, and output"
+    ],
+    "evidence": [
+      {
+        "skill": "Perform basic statistical analysis using SAS",
+        "quote": "SAS로 기초 통계분석을 수행(기술통계~분산분석)"
+      },
+      {
+        "skill": "Summarize and organize analysis results in tables",
+        "quote": "분석 결과를 표/요약 형태로 정리"
+      },
+      {
+        "skill": "Construct basic analysis pipelines including data import, cleaning, analysis, and output",
+        "quote": "기초 분석 파이프라인(불러오기-정제-분석-출력)을 구성"
+      }
+    ],
+    "notes": null
+  },
+  "통계학과::ST2200402::통계수학(I)": {
+    "skills": [
+      "Understand proposition logic and basic properties of real numbers",
+      "Explain convergence and divergence of sequences and series",
+      "Apply continuity, differentiation, and Riemann integration principles",
+      "Solve proof and calculation problems based on definitions and theorems",
+      "Complete calculus application tasks"
+    ],
+    "evidence": [
+      {
+        "skill": "Understand proposition logic and basic properties of real numbers",
+        "quote": "명제 논리 및 실수계 기본 성질 이해"
+      },
+      {
+        "skill": "Explain convergence and divergence of sequences and series",
+        "quote": "수열·급수의 수렴/발산을 설명"
+      },
+      {
+        "skill": "Apply continuity, differentiation, and Riemann integration principles",
+        "quote": "연속·미분·리만적분 및 미적분학 기본정리 적용"
+      }
+    ],
+    "notes": null
+  },
+  "통계학과::ST1600138::행렬대수": {
+    "skills": [
+      "Understand key concepts of matrices",
+      "Perform matrix operations",
+      "Determine linear independence",
+      "Implement matrix calculations in R",
+      "Implement matrix calculations in SAS/IML"
+    ],
+    "evidence": [
+      {
+        "skill": "Understand key concepts of matrices",
+        "quote": "행렬식·역행렬·rank 등 핵심 개념 이해"
+      },
+      {
+        "skill": "Perform matrix operations",
+        "quote": "행렬 연산을 수행"
+      },
+      {
+        "skill": "Determine linear independence",
+        "quote": "선형독립/종속을 판단"
+      },
+      {
+        "skill": "Implement matrix calculations in R",
+        "quote": "행렬 계산을 구현"
+      },
+      {
+        "skill": "Implement matrix calculations in SAS/IML",
+        "quote": "행렬 계산을 구현"
+      }
+    ],
+    "notes": null
+  },
+  "해양학과::MS2001263::딥러닝기반해양자료분석": {
+    "skills": [
+      "Analyze oceanic data",
+      "Understand physical oceanography principles",
+      "Perform statistical analysis of marine data",
+      "Generate analytical reports",
+      "Utilize remote sensing data for ocean analysis"
+    ],
+    "evidence": [
+      {
+        "skill": "Analyze oceanic data",
+        "quote": "해양 현상을 데이터 기반으로 분석."
+      },
+      {
+        "skill": "Generate analytical reports",
+        "quote": "분석 결과를 보고서 형태로 정리."
+      },
+      {
+        "skill": "Utilize remote sensing data for ocean analysis",
+        "quote": "인공위성·원격탐사·현장관측 자료에 대한 분석을 수행."
+      },
+      {
+        "skill": "Perform statistical analysis of marine data",
+        "quote": "해양 관련 기관 실무에 필요한 자료 분석 및 통계처리법 등 실무 능력 함양."
+      },
+      {
+        "skill": "Understand physical oceanography principles",
+        "quote": "해양 순환과 역할 및 해양 현상의 원리를 이해."
+      }
+    ],
+    "notes": null
+  },
+  "해양학과::MS3400997::자료분석을위한파이썬": {
+    "skills": [
+      "Analyze marine data",
+      "Interpret oceanographic phenomena",
+      "Compile analytical reports using data",
+      "Utilize Python for data analysis",
+      "Employ statistical analysis tools"
+    ],
+    "evidence": [
+      {
+        "skill": "Analyze marine data",
+        "quote": "해양 현상을 데이터 기반으로 분석"
+      },
+      {
+        "skill": "Compile analytical reports using data",
+        "quote": "분석 결과를 보고서 형태로 정리"
+      }
+    ],
+    "notes": null
+  },
+  "해양학과::MS3200295::해양조사및실습": {
+    "skills": [
+      "Understand marine data generation context",
+      "Analyze marine phenomena based on data",
+      "Compile analysis results into reports"
+    ],
+    "evidence": [
+      {
+        "skill": "Understand marine data generation context",
+        "quote": "해양 데이터의 생성 맥락과 특성 이해"
+      },
+      {
+        "skill": "Analyze marine phenomena based on data",
+        "quote": "해양 현상을 데이터 기반으로 분석"
+      },
+      {
+        "skill": "Compile analysis results into reports",
+        "quote": "분석 결과를 보고서 형태로 정리"
+      }
+    ],
+    "notes": null
+  },
+  "해양학과::MS2300386::물리해양학(I)": {
+    "skills": [
+      "Understand marine data generation contexts",
+      "Analyze ocean phenomena using data",
+      "Compile analysis results into reports"
+    ],
+    "evidence": [
+      {
+        "skill": "Understand marine data generation contexts",
+        "quote": "Learn the context and characteristics of marine data generation."
+      },
+      {
+        "skill": "Analyze ocean phenomena using data",
+        "quote": "Analyze ocean phenomena based on data."
+      },
+      {
+        "skill": "Compile analysis results into reports",
+        "quote": "Organize analysis results in report format."
+      }
+    ],
+    "notes": null
+  },
+  "해양학과::MS2300423::화학해양학(I)": {
+    "skills": [
+      "Understand marine data generation contexts",
+      "Analyze marine phenomena based on data",
+      "Summarize analysis results in report format"
+    ],
+    "evidence": [
+      {
+        "skill": "Understand marine data generation contexts",
+        "quote": "Understanding the context and characteristics of marine data generation."
+      },
+      {
+        "skill": "Analyze marine phenomena based on data",
+        "quote": "Analyzing marine phenomena through data-based methods."
+      },
+      {
+        "skill": "Summarize analysis results in report format",
+        "quote": "Organizing analysis results into report format."
+      }
+    ],
+    "notes": null
+  },
+  "해양학과::MS2300351::생물해양학(I)": {
+    "skills": [
+      "Analyze marine data",
+      "Understand marine environmental interactions",
+      "Prepare analytical reports"
+    ],
+    "evidence": [
+      {
+        "skill": "Analyze marine data",
+        "quote": "해양 현상을 데이터 기반으로 분석"
+      },
+      {
+        "skill": "Understand marine environmental interactions",
+        "quote": "해양환경과 생물과의 상호작용 등 해양학 심화 이론을 습득"
+      },
+      {
+        "skill": "Prepare analytical reports",
+        "quote": "분석 결과를 보고서 형태로 정리"
+      }
+    ],
+    "notes": null
+  },
+  "해양학과::MS3400082::지질해양학(I)": {
+    "skills": [
+      "Understand marine data generation context and characteristics",
+      "Analyze marine phenomena using data",
+      "Compile analysis results into reports"
+    ],
+    "evidence": [
+      {
+        "skill": "Understand marine data generation context and characteristics",
+        "quote": "Understand the context and characteristics of marine data generation."
+      },
+      {
+        "skill": "Analyze marine phenomena using data",
+        "quote": "Analyze marine phenomena based on data."
+      },
+      {
+        "skill": "Compile analysis results into reports",
+        "quote": "Organize analysis results in report form."
+      }
+    ],
+    "notes": null
+  },
+  "해양학과::MS2300999::해양환경과오염": {
+    "skills": [
+      "Understand marine data contexts and characteristics",
+      "Analyze marine phenomena based on data",
+      "Compile analysis results into reports",
+      "Adapt to marine-related employment environments",
+      "Acquire qualifications in marine environmental topics"
+    ],
+    "evidence": [
+      {
+        "skill": "Understand marine data contexts and characteristics",
+        "quote": "Learners will grasp the contexts and characteristics of marine data generation."
+      },
+      {
+        "skill": "Analyze marine phenomena based on data",
+        "quote": "Students will analyze ocean phenomena using data-driven approaches."
+      },
+      {
+        "skill": "Compile analysis results into reports",
+        "quote": "Results will be organized into report formats."
+      },
+      {
+        "skill": "Adapt to marine-related employment environments",
+        "quote": "Designed to support adaptation to marine-related job settings."
+      },
+      {
+        "skill": "Acquire qualifications in marine environmental topics",
+        "quote": "Help in obtaining qualifications such as marine environmental engineer."
+      }
+    ],
+    "notes": null
+  },
+  "해양학과::MS2300996::부유생물학및실험": {
+    "skills": [
+      "Understand marine data context and characteristics",
+      "Analyze marine phenomena using data",
+      "Compile analysis results into reports"
+    ],
+    "evidence": [
+      {
+        "skill": "Understand marine data context and characteristics",
+        "quote": "해양 데이터의 생성 맥락과 특성 이해"
+      },
+      {
+        "skill": "Analyze marine phenomena using data",
+        "quote": "해양 현상을 데이터 기반으로 분석"
+      },
+      {
+        "skill": "Compile analysis results into reports",
+        "quote": "분석 결과를 보고서 형태로 정리"
+      }
+    ],
+    "notes": null
+  },
+  "해양학과::MS3400045::해양식물플랑크톤생태학": {
+    "skills": [
+      "Analyze marine phenomena based on data",
+      "Understand the context and characteristics of marine data",
+      "Compile analytical results into reports"
+    ],
+    "evidence": [
+      {
+        "skill": "Analyze marine phenomena based on data",
+        "quote": "해양 현상을 데이터 기반으로 분석"
+      },
+      {
+        "skill": "Understand the context and characteristics of marine data",
+        "quote": "해양 데이터의 생성 맥락과 특성 이해"
+      },
+      {
+        "skill": "Compile analytical results into reports",
+        "quote": "분석 결과를 보고서 형태로 정리"
+      }
+    ],
+    "notes": null
+  }
+}
